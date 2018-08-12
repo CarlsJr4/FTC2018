@@ -5,7 +5,7 @@
 }
 @font-face {
   font-family: "ostrich";
-  src: url(/Assets/Fonts/ostrich-sans.sans-medium.ttf) format("truetype");
+  src: url(/Assets/Fonts/ostrich-regular.ttf) format("truetype");
 }
 h1 {
   font-family: "ostrich";

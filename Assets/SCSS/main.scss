@@ -17,10 +17,10 @@ $forest-green: #025939;
 //Primary
 @import url('https://fonts.googleapis.com/css?family=Rubik|Scope+One');
 @font-face { font-family: 'milkshake'; src: url(/Assets/Fonts/Milkshake.ttf) format('truetype');}
-@font-face { font-family: 'ostrich'; src: url(/Assets/Fonts/ostrich-sans.sans-medium.ttf) format('truetype'); }
+@font-face { font-family: 'ostrich'; src: url(/Assets/Fonts/ostrich-regular.ttf) format('truetype'); }
 
 h1 {
-  font-family: 'ostrich';
+  font-family: "ostrich";
 }
 
 
