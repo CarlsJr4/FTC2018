@@ -1,14 +1,34 @@
 @import url("https://fonts.googleapis.com/css?family=Rubik|Scope+One");
 @font-face {
   font-family: "milkshake";
-  src: url(/Assets/Fonts/Milkshake.ttf) format("truetype");
+  src: url(../Fonts/Milkshake.ttf) format("truetype");
 }
 @font-face {
   font-family: "ostrich";
-  src: url(/Assets/Fonts/ostrich-regular.ttf) format("truetype");
+  src: url(../Fonts/ostrich-regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "market";
+  src: url(../Fonts/uptown-market.ttf) format("truetype");
 }
 h1 {
   font-family: "ostrich";
+}
+
+h2 {
+  font-family: "milkshake";
+}
+
+h3 {
+  font-family: "Scope One";
+}
+
+p, a, button {
+  font-family: "Rubik";
+}
+
+a {
+  color: white;
 }
 
 /*# sourceMappingURL=main.css.map */
