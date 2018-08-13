@@ -23,6 +23,10 @@ h3 {
   font-family: "Scope One";
 }
 
+body {
+  background-image: url(/Assets/Images/Team.jpg);
+}
+
 .jumbotron {
   height: 45em;
 }
@@ -52,6 +56,53 @@ a:hover {
 .btn:hover {
   background-color: #A0B82F;
   transform: scale(1.1) perspective(1px);
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+  background-color: #A0B82F;
+  border-color: #A0B82F;
+}
+
+.head-panel, .paragraph-panel {
+  background-color: #A0B82F;
+  width: 33%;
+  padding: 1%;
+  border-radius: 50px;
+  margin: 1em;
+}
+
+#pitch {
+  padding-bottom: 8em;
+}
+
+#landing-img {
+  position: relative;
+  width: 40%;
+  height: 40%;
+  top: 8em;
+  right: 15%;
+}
+
+#now-serving, #FTC-desc {
+  position: relative;
+  left: 30%;
+  width: 25%;
+  margin-bottom: 0;
+  padding: 2%;
+}
+
+#FTC-desc {
+  width: 50%;
+  left: 20%;
+}
+
+.paragraph-panel {
+  background-color: #8D6542;
+  padding: 2%;
+}
+
+.carousel {
+  margin: 1em 4em;
 }
 
 .carousel-item {
