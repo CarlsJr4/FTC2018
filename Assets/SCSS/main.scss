@@ -14,6 +14,9 @@ $salmon: #F48151;
 $brown: #8D6542;
 $forest-green: #025939;
 
+//Main Colors
+$panel-color: $light-green;
+
 //Primary
 @import url('https://fonts.googleapis.com/css?family=Rubik|Scope+One');
 @font-face { font-family: 'milkshake'; src: url(../Fonts/Milkshake.ttf) format('truetype');}
@@ -25,11 +28,15 @@ h1 {
 }
 
 h2 {
-  font-family: 'milkshake';
+  font-family: 'market';
 }
 
 h3 {
   font-family: $scope-one;
+}
+
+.jumbotron {
+  height: 45em;
 }
 
 p, a, button {
@@ -38,7 +45,35 @@ p, a, button {
 
 a {
   color: white;
+  &:hover {
+    text-decoration: none;
+  }
 }
 
-//Navigation
+//Elements
+.card-img-top {
+  max-height: 20em;
+}
+
+.btn {
+  border-radius: 50px;
+  background-color: $panel-color;
+  border: 0;
+  transition: all .2s ease;
+  transform: scale(1);
+    &:hover {
+      background-color: $panel-color;
+      transform: scale(1.1) perspective(1px);
+  }
+}
+
+.carousel-item {
+  max-height: 25em;
+}
+
+//Sections
+#mini-nav {
+  position: relative;
+  top: 60%;
+}
 
