@@ -101,6 +101,11 @@ a:hover {
   padding: 2%;
 }
 
+.footer-panel {
+  background-color: #FECC4C;
+  padding: 2%;
+}
+
 .carousel {
   margin: 1em 4em;
 }
