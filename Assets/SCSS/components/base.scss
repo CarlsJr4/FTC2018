@@ -1,0 +1,74 @@
+h1 {
+  font-family: 'ostrich';
+}
+
+h2 {
+  font-family: 'market';
+}
+
+h3 {
+  font-family: $scope-one;
+}
+
+p, a, button {
+  font-family: $rubik;
+}
+
+a {
+  color: white;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+//Elements
+.card-img-top {
+  max-height: 20em;
+}
+
+.btn {
+  border-radius: 50px;
+  background-color: $panel-color;
+  border: 0;
+  transition: all .2s ease;
+  transform: scale(1);
+  &:hover {
+    background-color: $panel-color;
+    transform: scale(1.1) perspective(1px);
+  }
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+  background-color: $panel-color;
+  border-color: $panel-color;
+}
+
+.head-panel {
+  background-color: $panel-color;
+  width: 33%;
+  padding: 1%;
+  border-radius: 50px;
+  margin: 1em;
+}
+
+.paragraph-panel {
+  @extend .head-panel;
+  background-color: $sub-panel-color;
+  padding: 2%;
+}
+
+.footer-panel {
+  background-color: $yellow;
+  padding: 2%;
+}
+
+.carousel {
+  margin: 1em 4em;
+}
+
+.carousel-item {
+  max-height: 25em;
+}
+
+
+
