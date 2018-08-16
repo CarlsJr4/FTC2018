@@ -67,10 +67,10 @@ ul.calendar {list-style-type: none;}
 
 /* Month header */
 .month {
-  font-family: "TheBoldFont";
+  font-family: "ostrich";
   padding: 15px 25px;
   width: 100%;
-  background: #260f12;
+  background: $cal-month;
   text-align: center;
   line-height: 35px;
 }
@@ -94,7 +94,7 @@ ul.calendar {list-style-type: none;}
 .weekdays {
   margin: 0;
   padding: 5px 0;
-  background-color:#4d0000;
+  background-color:$cal-day;
 }
 
 .weekdays li {
@@ -146,13 +146,13 @@ li {
 
 div.upper{
   height: 60%; margin: 0; padding: 0 4%;
-  background: #72191b;
+  background: $deadline;
   color: white;
 }
 
 div.lower{
   height: 40%; margin: 0; padding: 0 4%;
-  background: #cc6032;
+  background: $office-hour;
   color: white;
 }
 
