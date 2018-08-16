@@ -6,11 +6,11 @@ h2 {
   font-family: $sub1;
 }
 
-h3 {
+h3, h4 {
   font-family: $sub2;
 }
 
-p, a, button {
+p, a, h5, button {
   font-family: $body;
 }
 
@@ -62,13 +62,6 @@ a {
   padding: 2%;
 }
 
-.carousel {
-  margin: 1em 4em;
-}
-
-.carousel-item {
-  max-height: 25em;
-}
 
 
 
