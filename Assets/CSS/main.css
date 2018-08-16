@@ -21,6 +21,10 @@ Applied colors
   font-family: "market";
   src: url(../Fonts/uptown-market.ttf) format("truetype");
 }
+html {
+  margin-top: 5%;
+}
+
 h1 {
   font-family: "ostrich";
 }
