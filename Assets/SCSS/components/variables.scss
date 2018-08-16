@@ -1,21 +1,30 @@
 /* --------------------------------
 Fonts
 -------------------------------- */
+
+//Headings
 $primary1: 'milkshake';
 $primary2: 'ostrich';
+
+//Sub-headings
 $sub1: 'market';
 $sub2: 'Scope One';
+
+//Paragraphs
 $body: 'Rubik';
 
 /* --------------------------------
 Colors
 -------------------------------- */
+
+//Primary
 $red: #C12228;
 $orange: #F9A41D;
 $yellow: #FECC4C;
 $light-green: #A0B82F;
 $turquoise: #0B7868;
 
+//Secondary
 $beige: #EAD1A1;
 $sky-blue: #AFCAE3;
 $salmon: #F48151;
@@ -23,10 +32,14 @@ $brown: #8D6542;
 $forest-green: #025939;
 
 /* --------------------------------
-Primary
+Applied colors
 -------------------------------- */
+
+//Header panels
 $panel-color: $light-green;
 $sub-panel-color: $brown;
+
+//Calendar
 $cal-month: $sky-blue;
 $cal-day: $orange;
 $office-hour: $light-green;

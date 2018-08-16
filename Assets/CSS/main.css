@@ -5,7 +5,7 @@ Fonts
 Colors
 -------------------------------- */
 /* --------------------------------
-Primary
+Applied colors
 -------------------------------- */
 @import url("https://fonts.googleapis.com/css?family=Rubik|Scope+One");
 @font-face {
@@ -88,6 +88,18 @@ a:hover {
 
 .carousel-item {
   max-height: 25em;
+}
+
+.custom-nav {
+  background-color: #8D6542 !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-light .navbar-brand {
+  color: white;
 }
 
 .jumbotron {
