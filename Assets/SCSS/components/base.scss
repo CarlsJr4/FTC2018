@@ -1,17 +1,17 @@
 h1 {
-  font-family: 'ostrich';
+  font-family: $primary2;
 }
 
 h2 {
-  font-family: 'market';
+  font-family: $sub1;
 }
 
 h3 {
-  font-family: $scope-one;
+  font-family: $sub2;
 }
 
 p, a, button {
-  font-family: $rubik;
+  font-family: $body;
 }
 
 a {

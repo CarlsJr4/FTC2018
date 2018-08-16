@@ -1,3 +1,12 @@
+/* --------------------------------
+Fonts
+-------------------------------- */
+/* --------------------------------
+Colors
+-------------------------------- */
+/* --------------------------------
+Primary
+-------------------------------- */
 @import url("https://fonts.googleapis.com/css?family=Rubik|Scope+One");
 @font-face {
   font-family: "milkshake";
@@ -120,7 +129,7 @@ div .calendars {
   margin-bottom: 0;
 }
 div .key {
-  font-family: "TheBoldFont";
+  font-family: "market";
   text-align: left;
   color: black;
   font-size: 18px;
@@ -132,8 +141,7 @@ div .key {
   padding: 10px;
 }
 div .DLOH {
-  font-family: "CenturyGothic";
-  color: white;
+  font-family: "rubik";
   text-align: left;
   font-size: 12px;
   padding: 10px 0;

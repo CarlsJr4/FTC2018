@@ -1,7 +1,15 @@
-//Variables
-$scope-one: 'Scope One';
-$rubik: 'Rubik';
+/* --------------------------------
+Fonts
+-------------------------------- */
+$primary1: 'milkshake';
+$primary2: 'ostrich';
+$sub1: 'market';
+$sub2: 'Scope One';
+$body: 'Rubik';
 
+/* --------------------------------
+Colors
+-------------------------------- */
 $red: #C12228;
 $orange: #F9A41D;
 $yellow: #FECC4C;
@@ -14,7 +22,9 @@ $salmon: #F48151;
 $brown: #8D6542;
 $forest-green: #025939;
 
-//Main Colors
+/* --------------------------------
+Primary
+-------------------------------- */
 $panel-color: $light-green;
 $sub-panel-color: $brown;
 $cal-month: $sky-blue;
