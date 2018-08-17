@@ -1,0 +1,71 @@
+html {
+  margin-top: 5%;
+}
+
+h1 {
+  font-family: $primary2;
+}
+
+h2 {
+  font-family: $sub1;
+}
+
+h3, h4 {
+  font-family: $sub2;
+}
+
+p, a, h5, button {
+  font-family: $body;
+}
+
+a {
+  color: white;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+//Elements
+.card-img-top {
+  max-height: 20em;
+}
+
+.btn {
+  border-radius: 50px;
+  background-color: $panel-color;
+  border: 0;
+  transition: all .2s ease;
+  transform: scale(1);
+  &:hover {
+    background-color: $panel-color;
+    transform: scale(1.1) perspective(1px);
+  }
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+  background-color: $panel-color;
+  border-color: $panel-color;
+}
+
+.head-panel {
+  background-color: $panel-color;
+  width: 33%;
+  padding: 1%;
+  border-radius: 50px;
+  margin: 1em;
+}
+
+.paragraph-panel {
+  @extend .head-panel;
+  background-color: $sub-panel-color;
+  padding: 2%;
+}
+
+.footer-panel {
+  background-color: $yellow;
+  padding: 2%;
+}
+
+
+
+
