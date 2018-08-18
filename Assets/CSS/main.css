@@ -191,6 +191,19 @@ Activity cards
   margin-bottom: 5%;
 }
 
+.card-header {
+  background-color: #8D6542;
+  color: white;
+}
+
+.badge-general {
+  background-color: #A0B82F;
+}
+
+.badge-deadline {
+  background-color: #F48151;
+}
+
 div .calendars {
   max-width: 1000px;
   margin-bottom: 0;
