@@ -25,6 +25,15 @@ html {
   margin-top: 5%;
 }
 
+body {
+  background-color: #FECC4C;
+  background: url("../Images/background-sample5.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 h1 {
   font-family: "ostrich";
 }
@@ -53,15 +62,15 @@ a:hover {
 }
 
 .btn {
-  border-radius: 50px;
   background-color: #A0B82F;
   border: 0;
   transition: all 0.2s ease;
-  transform: scale(1);
+  border: 3px solid white;
 }
 .btn:hover {
-  background-color: #A0B82F;
-  transform: scale(1.1) perspective(1px);
+  background-color: #FECC4C;
+  border: 3px solid white;
+  transform: scale(1.01) perspective(1px);
 }
 
 .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
@@ -69,16 +78,17 @@ a:hover {
   border-color: #A0B82F;
 }
 
-.head-panel, .paragraph-panel {
+.head-panel {
   background-color: #A0B82F;
+  clip-path: polygon(100% 0, 95% 50%, 100% 100%, 0% 100%, 5% 50%, 0% 0%);
   width: 33%;
   padding: 1%;
-  border-radius: 50px;
   margin: 1em;
 }
 
 .paragraph-panel {
-  background-color: #8D6542;
+  color: white;
+  background-color: #0B7868;
   padding: 2%;
 }
 
@@ -88,7 +98,7 @@ a:hover {
 }
 
 .custom-nav {
-  background-color: #8D6542 !important;
+  background-color: #0B7868 !important;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -99,38 +109,74 @@ a:hover {
   color: white;
 }
 
+/* --------------------------------
+Jumbotron section
+-------------------------------- */
 .jumbotron {
-  height: 45em;
-}
-
-#pitch {
-  padding-bottom: 8em;
-}
-
-#landing-img {
-  position: relative;
-  width: 40%;
-  height: 40%;
-  top: 8em;
-  right: 15%;
-}
-
-#now-serving, #FTC-desc {
-  position: relative;
-  left: 30%;
-  width: 25%;
-  margin-bottom: 0;
-  padding: 2%;
-}
-
-#FTC-desc {
-  width: 50%;
-  left: 20%;
+  height: 85vh;
+  margin: 0;
 }
 
 #mini-nav {
+  margin: 0;
+  padding: 2%;
+  background-color: #8D6542;
+}
+
+/* --------------------------------
+Description section
+-------------------------------- */
+#pitch {
+  background-color: #FECC4C;
+  height: 95vh;
+}
+
+#landing-img-left {
+  position: absolute;
+  height: 85%;
+  left: 0;
+  top: 110%;
+  padding: 2%;
+}
+
+#pitch-right {
   position: relative;
   top: 60%;
+}
+
+#now-serving {
+  position: relative;
+  width: 25%;
+  left: 13%;
+  margin-bottom: 0;
+}
+
+#FTC-desc {
+  position: relative;
+  width: 50%;
+  left: 12.5%;
+}
+
+#pitch-btn {
+  background-color: #F9A41D;
+  padding: 1.5% 10%;
+}
+#pitch-btn:hover {
+  background-color: #FECC4C;
+}
+
+/* --------------------------------
+Activity cards
+-------------------------------- */
+.activities {
+  padding: 10%;
+  background-color: #0B7868;
+  color: white;
+}
+
+.card-title {
+  margin: 0;
+  color: black;
 }
 
 .carousel {
@@ -139,6 +185,23 @@ a:hover {
 
 .carousel-item {
   max-height: 25em;
+}
+
+.news {
+  margin-bottom: 5%;
+}
+
+.card-header {
+  background-color: #8D6542;
+  color: white;
+}
+
+.badge-general {
+  background-color: #A0B82F;
+}
+
+.badge-deadline {
+  background-color: #F48151;
 }
 
 div .calendars {
