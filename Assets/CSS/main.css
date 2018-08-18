@@ -65,10 +65,12 @@ a:hover {
   background-color: #A0B82F;
   border: 0;
   transition: all 0.2s ease;
+  border: 3px solid white;
 }
 .btn:hover {
-  background-color: #AFCAE3;
-  transform: scale(1.03) perspective(1px);
+  background-color: #FECC4C;
+  border: 3px solid white;
+  transform: scale(1.01) perspective(1px);
 }
 
 .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
@@ -160,7 +162,7 @@ Description section
   padding: 1.5% 10%;
 }
 #pitch-btn:hover {
-  background-color: #AFCAE3;
+  background-color: #FECC4C;
 }
 
 /* --------------------------------
