@@ -49,14 +49,15 @@ a {
 
 .head-panel {
   background-color: $panel-color;
+  clip-path: polygon(100% 0, 95% 50%, 100% 100%, 0% 100%, 5% 50%, 0% 0%);
+  //border-radius: 50px;
   width: 33%;
   padding: 1%;
-  border-radius: 50px;
   margin: 1em;
 }
 
 .paragraph-panel {
-  @extend .head-panel;
+  //@extend .head-panel;
   background-color: $sub-panel-color;
   padding: 2%;
 }

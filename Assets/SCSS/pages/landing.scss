@@ -1,7 +1,18 @@
+/* --------------------------------
+Jumbotron section
+-------------------------------- */
 .jumbotron {
   height: 45em;
 }
 
+#mini-nav {
+  position: relative;
+  top: 60%;
+}
+
+/* --------------------------------
+Description section
+-------------------------------- */
 #pitch {
   padding-bottom: 8em;
 }
@@ -19,7 +30,6 @@
   left: 30%;
   width: 25%;
   margin-bottom: 0;
-  padding: 2%;
 }
 
 #FTC-desc {
@@ -28,7 +38,16 @@
   left: 20%;
 }
 
-#mini-nav {
-  position: relative;
-  top: 60%;
+/* --------------------------------
+Activity cards
+-------------------------------- */
+.activities {
+  padding: 10%;
+  background-color: $panel-color;
+  color: white;
+}
+
+.card-title {
+  margin: 0;
+  color: black;
 }

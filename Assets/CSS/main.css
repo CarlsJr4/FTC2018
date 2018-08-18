@@ -69,11 +69,11 @@ a:hover {
   border-color: #A0B82F;
 }
 
-.head-panel, .paragraph-panel {
+.head-panel {
   background-color: #A0B82F;
+  clip-path: polygon(100% 0, 95% 50%, 100% 100%, 0% 100%, 5% 50%, 0% 0%);
   width: 33%;
   padding: 1%;
-  border-radius: 50px;
   margin: 1em;
 }
 
@@ -99,10 +99,21 @@ a:hover {
   color: white;
 }
 
+/* --------------------------------
+Jumbotron section
+-------------------------------- */
 .jumbotron {
   height: 45em;
 }
 
+#mini-nav {
+  position: relative;
+  top: 60%;
+}
+
+/* --------------------------------
+Description section
+-------------------------------- */
 #pitch {
   padding-bottom: 8em;
 }
@@ -120,7 +131,6 @@ a:hover {
   left: 30%;
   width: 25%;
   margin-bottom: 0;
-  padding: 2%;
 }
 
 #FTC-desc {
@@ -128,9 +138,18 @@ a:hover {
   left: 20%;
 }
 
-#mini-nav {
-  position: relative;
-  top: 60%;
+/* --------------------------------
+Activity cards
+-------------------------------- */
+.activities {
+  padding: 10%;
+  background-color: #A0B82F;
+  color: white;
+}
+
+.card-title {
+  margin: 0;
+  color: black;
 }
 
 .carousel {
