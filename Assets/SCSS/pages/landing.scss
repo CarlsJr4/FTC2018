@@ -44,6 +44,14 @@ Description section
   left: 12.5%;
 }
 
+#pitch-btn {
+  background-color: #F9A41D;
+  padding: 1.5% 10%;
+  &:hover {
+    background-color: $sub-panel-color;
+  }
+}
+
 /* --------------------------------
 Activity cards
 -------------------------------- */

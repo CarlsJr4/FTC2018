@@ -44,10 +44,9 @@ a {
   background-color: $panel-color;
   border: 0;
   transition: all .2s ease;
-  transform: scale(1);
   &:hover {
-    background-color: $panel-color;
-    transform: scale(1.1) perspective(1px);
+    background-color: $sub-panel-color;
+    transform: scale(1.03) perspective(1px);
   }
 }
 
