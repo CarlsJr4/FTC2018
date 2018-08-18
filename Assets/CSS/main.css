@@ -62,13 +62,12 @@ a:hover {
 }
 
 .btn {
-  border-radius: 50px;
   background-color: #A0B82F;
   border: 0;
   transition: all 0.2s ease;
 }
 .btn:hover {
-  background-color: #0B7868;
+  background-color: #AFCAE3;
   transform: scale(1.03) perspective(1px);
 }
 
@@ -112,12 +111,14 @@ a:hover {
 Jumbotron section
 -------------------------------- */
 .jumbotron {
-  height: 100vh;
+  height: 85vh;
+  margin: 0;
 }
 
 #mini-nav {
-  position: relative;
-  top: 60%;
+  margin: 0;
+  padding: 2%;
+  background-color: #8D6542;
 }
 
 /* --------------------------------
@@ -159,7 +160,7 @@ Description section
   padding: 1.5% 10%;
 }
 #pitch-btn:hover {
-  background-color: #0B7868;
+  background-color: #AFCAE3;
 }
 
 /* --------------------------------

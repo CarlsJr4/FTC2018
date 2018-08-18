@@ -2,12 +2,14 @@
 Jumbotron section
 -------------------------------- */
 .jumbotron {
-  height: 100vh;
+  height: 85vh;
+  margin: 0;
 }
 
 #mini-nav {
-  position: relative;
-  top: 60%;
+  margin: 0;
+  padding: 2%;
+  background-color: $sub-panel-color2;
 }
 
 /* --------------------------------
@@ -48,7 +50,7 @@ Description section
   background-color: #F9A41D;
   padding: 1.5% 10%;
   &:hover {
-    background-color: $sub-panel-color;
+    background-color: $btn-hover;
   }
 }
 

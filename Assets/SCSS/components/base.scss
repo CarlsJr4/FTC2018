@@ -40,12 +40,12 @@ a {
 }
 
 .btn {
-  border-radius: 50px;
+  //border-radius: 50px;
   background-color: $panel-color;
   border: 0;
   transition: all .2s ease;
   &:hover {
-    background-color: $sub-panel-color;
+    background-color: $btn-hover;
     transform: scale(1.03) perspective(1px);
   }
 }
