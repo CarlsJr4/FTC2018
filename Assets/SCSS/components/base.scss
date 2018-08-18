@@ -2,6 +2,15 @@ html {
   margin-top: 5%;
 }
 
+body {
+  background-color: $yellow;
+  background: url('../Images/background-sample5.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 h1 {
   font-family: $primary2;
 }
@@ -58,6 +67,7 @@ a {
 
 .paragraph-panel {
   //@extend .head-panel;
+  color: white;
   background-color: $sub-panel-color;
   padding: 2%;
 }

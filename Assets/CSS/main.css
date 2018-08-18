@@ -25,6 +25,15 @@ html {
   margin-top: 5%;
 }
 
+body {
+  background-color: #FECC4C;
+  background: url("../Images/background-sample5.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 h1 {
   font-family: "ostrich";
 }
@@ -78,7 +87,8 @@ a:hover {
 }
 
 .paragraph-panel {
-  background-color: #8D6542;
+  color: white;
+  background-color: #0B7868;
   padding: 2%;
 }
 
@@ -88,7 +98,7 @@ a:hover {
 }
 
 .custom-nav {
-  background-color: #8D6542 !important;
+  background-color: #0B7868 !important;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -103,7 +113,7 @@ a:hover {
 Jumbotron section
 -------------------------------- */
 .jumbotron {
-  height: 45em;
+  height: 100vh;
 }
 
 #mini-nav {
@@ -115,27 +125,34 @@ Jumbotron section
 Description section
 -------------------------------- */
 #pitch {
-  padding-bottom: 8em;
+  background-color: #FECC4C;
+  height: 95vh;
 }
 
-#landing-img {
-  position: relative;
-  width: 40%;
-  height: 40%;
-  top: 8em;
-  right: 15%;
+#landing-img-left {
+  position: absolute;
+  height: 85%;
+  left: 0;
+  top: 110%;
+  padding: 2%;
 }
 
-#now-serving, #FTC-desc {
+#pitch-right {
   position: relative;
-  left: 30%;
+  top: 60%;
+}
+
+#now-serving {
+  position: relative;
   width: 25%;
+  left: 13%;
   margin-bottom: 0;
 }
 
 #FTC-desc {
+  position: relative;
   width: 50%;
-  left: 20%;
+  left: 12.5%;
 }
 
 /* --------------------------------
@@ -143,7 +160,7 @@ Activity cards
 -------------------------------- */
 .activities {
   padding: 10%;
-  background-color: #A0B82F;
+  background-color: #0B7868;
   color: white;
 }
 
@@ -158,6 +175,10 @@ Activity cards
 
 .carousel-item {
   max-height: 25em;
+}
+
+.news {
+  margin-bottom: 5%;
 }
 
 div .calendars {
