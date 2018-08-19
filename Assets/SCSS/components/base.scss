@@ -60,8 +60,9 @@ a {
 .head-panel {
   background-color: $panel-color;
   clip-path: polygon(100% 0, 95% 50%, 100% 100%, 0% 100%, 5% 50%, 0% 0%);
-  //border-radius: 50px;
-  width: 33%;
+  border: 5px double white;
+  width: auto;
+  max-width: 40%;
   padding: 1%;
   margin: 1em;
 }
