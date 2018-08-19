@@ -1,5 +1,6 @@
 .carousel {
   padding: 1em;
+  background-color: $panel-color;
 }
 
 .carousel-item {
@@ -21,5 +22,9 @@
 
 .badge-deadline {
   background-color: $salmon;
+}
+
+.vl-header {
+  @extend .vl;
 }
 
