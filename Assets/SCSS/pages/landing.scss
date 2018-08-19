@@ -4,6 +4,12 @@ Jumbotron section
 .jumbotron {
   height: 85vh;
   margin: 0;
+  background-image: url(../Images/group.jpg);
+}
+
+#welcome {
+  margin-top: 3%;
+  background-color: $panel-color;
 }
 
 #mini-nav {

@@ -65,7 +65,7 @@ a:hover {
   background-color: #A0B82F;
   border: 0;
   transition: all 0.2s ease;
-  border: 3px solid white;
+  border: 3px double white;
 }
 .btn:hover {
   background-color: #FECC4C;
@@ -98,15 +98,7 @@ a:hover {
 }
 
 .custom-nav {
-  background-color: #0B7868 !important;
-}
-
-.navbar-light .navbar-nav .nav-link {
-  color: white;
-}
-
-.navbar-light .navbar-brand {
-  color: white;
+  background-color: #EAD1A1 !important;
 }
 
 /* --------------------------------
@@ -115,6 +107,12 @@ Jumbotron section
 .jumbotron {
   height: 85vh;
   margin: 0;
+  background-image: url(../Images/group.jpg);
+}
+
+#welcome {
+  margin-top: 3%;
+  background-color: #A0B82F;
 }
 
 #mini-nav {

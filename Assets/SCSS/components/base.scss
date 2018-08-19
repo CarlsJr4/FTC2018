@@ -44,7 +44,7 @@ a {
   background-color: $panel-color;
   border: 0;
   transition: all .2s ease;
-  border: 3px solid white;
+  border: 3px double white;
   &:hover {
     background-color: $btn-hover;
     border: 3px solid white;
