@@ -4,6 +4,38 @@ Jumbotron section
 .jumbotron {
   height: 85vh;
   margin: 0;
+    background: {
+      image: url(../Images/group.jpg);
+      repeat: no-repeat;
+      size: cover;
+      position: 0% 20%;
+    }
+}
+
+#welcome {
+  margin-top: 1%;
+}
+
+#FTC-title {
+  max-width: 100%;
+  margin-bottom: 0;
+  margin-top: 0;
+  border: 10px double white;
+}
+
+.vl {
+  height: 3em;
+  width: 33%;
+  border-left: 10px solid $sub-panel-color;
+  border-right: 10px solid $sub-panel-color;
+}
+
+.sub-welcome {
+  width: 40%;
+  background-color: $sub-panel-color2;
+  padding: 1%;
+  border: 3px double white;
+  color: white;
 }
 
 #mini-nav {

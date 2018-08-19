@@ -65,7 +65,7 @@ a:hover {
   background-color: #A0B82F;
   border: 0;
   transition: all 0.2s ease;
-  border: 3px solid white;
+  border: 3px double white;
 }
 .btn:hover {
   background-color: #FECC4C;
@@ -81,7 +81,9 @@ a:hover {
 .head-panel {
   background-color: #A0B82F;
   clip-path: polygon(100% 0, 95% 50%, 100% 100%, 0% 100%, 5% 50%, 0% 0%);
-  width: 33%;
+  border: 5px double white;
+  width: auto;
+  max-width: 40%;
   padding: 1%;
   margin: 1em;
 }
@@ -98,15 +100,7 @@ a:hover {
 }
 
 .custom-nav {
-  background-color: #0B7868 !important;
-}
-
-.navbar-light .navbar-nav .nav-link {
-  color: white;
-}
-
-.navbar-light .navbar-brand {
-  color: white;
+  background-color: #EAD1A1 !important;
 }
 
 /* --------------------------------
@@ -115,6 +109,36 @@ Jumbotron section
 .jumbotron {
   height: 85vh;
   margin: 0;
+  background-image: url(../Images/group.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0% 20%;
+}
+
+#welcome {
+  margin-top: 1%;
+}
+
+#FTC-title {
+  max-width: 100%;
+  margin-bottom: 0;
+  margin-top: 0;
+  border: 10px double white;
+}
+
+.vl {
+  height: 3em;
+  width: 33%;
+  border-left: 10px solid #0B7868;
+  border-right: 10px solid #0B7868;
+}
+
+.sub-welcome {
+  width: 40%;
+  background-color: #8D6542;
+  padding: 1%;
+  border: 3px double white;
+  color: white;
 }
 
 #mini-nav {
@@ -122,6 +146,7 @@ Jumbotron section
   padding: 2%;
   background-color: #8D6542;
 }
+
 
 /* --------------------------------
 Description section
