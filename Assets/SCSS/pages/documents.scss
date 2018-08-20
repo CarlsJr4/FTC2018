@@ -1,5 +1,24 @@
+/* --------------------------------
+Documents
+-------------------------------- */
+#download-bg {
+  @extend #mini-nav;
+  margin: 2%;
+  border-radius: 10px;
+}
+
+.download-panel {
+  background-color: $beige;
+  padding: 1%;
+  margin: 1%;
+  align-content: left;
+  border-radius: 10px;
+}
 
 
+/* --------------------------------
+Calendar
+-------------------------------- */
 div {
   .calendars{
     max-width: 1000px;
@@ -109,7 +128,7 @@ ul.calendar {list-style-type: none;}
 /* Days (1-31) */
 .days {
   padding: 10px 0;
-  background: white;
+  background: $sub-panel-color2;
   margin: 0;
     li {
     list-style-type: none;

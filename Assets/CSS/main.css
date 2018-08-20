@@ -69,6 +69,7 @@ a:hover {
   border: 3px double white;
 }
 .btn:hover {
+  color: black;
   background-color: #FECC4C;
   border: 3px solid white;
   transform: scale(1.01) perspective(1px);
@@ -142,7 +143,7 @@ Jumbotron section
   color: white;
 }
 
-#mini-nav {
+#mini-nav, #download-bg {
   margin: 0;
   padding: 2%;
   background-color: #8D6542;
@@ -230,6 +231,25 @@ Activity cards
   background-color: #F48151;
 }
 
+/* --------------------------------
+Documents
+-------------------------------- */
+#download-bg {
+  margin: 2%;
+  border-radius: 10px;
+}
+
+.download-panel {
+  background-color: #EAD1A1;
+  padding: 1%;
+  margin: 1%;
+  align-content: left;
+  border-radius: 10px;
+}
+
+/* --------------------------------
+Calendar
+-------------------------------- */
 div .calendars {
   max-width: 1000px;
   margin-bottom: 0;
@@ -328,7 +348,7 @@ ul.calendar {
 /* Days (1-31) */
 .days {
   padding: 10px 0;
-  background: white;
+  background: #8D6542;
   margin: 0;
 }
 .days li {

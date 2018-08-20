@@ -46,6 +46,7 @@ a {
   transition: all .2s ease;
   border: 3px double white;
   &:hover {
+    color: black;
     background-color: $btn-hover;
     border: 3px solid white;
     transform: scale(1.01) perspective(1px);
