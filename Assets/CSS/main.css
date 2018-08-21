@@ -245,6 +245,8 @@ Documents
 #download-bg {
   margin: 0 2% 2% 2%;
   border-radius: 10px;
+  background-color: white;
+  border: 3px solid #8D6542;
 }
 
 .download-panel {
