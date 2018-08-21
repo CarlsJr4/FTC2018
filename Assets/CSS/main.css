@@ -69,9 +69,14 @@ a:hover {
   border: 3px double white;
 }
 .btn:hover {
+  color: black;
   background-color: #FECC4C;
   border: 3px solid white;
   transform: scale(1.01) perspective(1px);
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: none;
 }
 
 .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
@@ -87,6 +92,10 @@ a:hover {
   max-width: 40%;
   padding: 1%;
   margin: 1em;
+}
+
+.sign {
+  margin-bottom: 0;
 }
 
 .paragraph-panel {
@@ -142,7 +151,7 @@ Jumbotron section
   color: white;
 }
 
-#mini-nav {
+#mini-nav, #download-bg {
   margin: 0;
   padding: 2%;
   background-color: #8D6542;
@@ -230,6 +239,32 @@ Activity cards
   background-color: #F48151;
 }
 
+/* --------------------------------
+Documents
+-------------------------------- */
+#download-bg {
+  margin: 0 2% 2% 2%;
+  border-radius: 10px;
+  background-color: white;
+  border: 3px solid #8D6542;
+}
+
+.download-panel {
+  background-color: #EAD1A1;
+  padding: 1%;
+  margin: 1%;
+  align-content: left;
+  border-radius: 10px;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+  background-color: #FECC4C;
+  border: 3px solid white;
+}
+
+/* --------------------------------
+Calendar
+-------------------------------- */
 div .calendars {
   max-width: 1000px;
   margin-bottom: 0;

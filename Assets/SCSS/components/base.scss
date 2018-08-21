@@ -46,10 +46,15 @@ a {
   transition: all .2s ease;
   border: 3px double white;
   &:hover {
+    color: black;
     background-color: $btn-hover;
     border: 3px solid white;
     transform: scale(1.01) perspective(1px);
   }
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
+  box-shadow: none; //disables blue border when clicking buttons
 }
 
 .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
@@ -59,12 +64,16 @@ a {
 
 .head-panel {
   background-color: $panel-color;
-  clip-path: polygon(100% 0, 95% 50%, 100% 100%, 0% 100%, 5% 50%, 0% 0%);
+  clip-path: polygon(100% 0, 95% 50%, 100% 100%, 0% 100%, 5% 50%, 0% 0%); //ribbon shape
   border: 5px double white;
   width: auto;
   max-width: 40%;
   padding: 1%;
   margin: 1em;
+}
+
+.sign { //For making headers look like signs
+  margin-bottom: 0;
 }
 
 .paragraph-panel {

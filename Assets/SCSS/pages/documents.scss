@@ -1,5 +1,30 @@
+/* --------------------------------
+Documents
+-------------------------------- */
+#download-bg {
+  @extend #mini-nav;
+  margin: 0 2% 2% 2%;
+  border-radius: 10px;
+  background-color: white;
+  border: 3px solid $sub-panel-color2;
+}
 
+.download-panel {
+  background-color: $beige;
+  padding: 1%;
+  margin: 1%;
+  align-content: left;
+  border-radius: 10px;
+}
 
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+  background-color: $yellow;
+  border: 3px solid white;
+}
+
+/* --------------------------------
+Calendar
+-------------------------------- */
 div {
   .calendars{
     max-width: 1000px;
