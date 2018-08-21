@@ -75,6 +75,10 @@ a:hover {
   transform: scale(1.01) perspective(1px);
 }
 
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: none;
+}
+
 .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
   background-color: #025939;
   border-color: #025939;
@@ -88,6 +92,10 @@ a:hover {
   max-width: 40%;
   padding: 1%;
   margin: 1em;
+}
+
+.sign {
+  margin-bottom: 0;
 }
 
 .paragraph-panel {
@@ -235,7 +243,7 @@ Activity cards
 Documents
 -------------------------------- */
 #download-bg {
-  margin: 2%;
+  margin: 0 2% 2% 2%;
   border-radius: 10px;
 }
 
@@ -247,40 +255,9 @@ Documents
   border-radius: 10px;
 }
 
-/* Style the tab */
-.tab {
-  overflow: hidden;
-  border: 1px solid #ccc;
-  background-color: #f1f1f1;
-}
-
-/* Style the buttons that are used to open the tab content */
-.tab button {
-  background-color: inherit;
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  transition: 0.3s;
-}
-
-/* Change background color of buttons on hover */
-.tab button:hover {
-  background-color: #ddd;
-}
-
-/* Create an active/current tablink class */
-.tab button.active {
-  background-color: #ccc;
-}
-
-/* Style the tab content */
-.tabcontent {
-  display: none;
-  padding: 6px 12px;
-  border: 1px solid #ccc;
-  border-top: none;
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+  background-color: #FECC4C;
+  border: 3px solid white;
 }
 
 /* --------------------------------
