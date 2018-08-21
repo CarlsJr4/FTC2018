@@ -17,6 +17,7 @@
             $("#includedContent").load("nav.html");
         });
     </script>
+    <script src="Assets/JS/tabs.js"></script>
 </head>
 
 <body>
@@ -38,16 +39,16 @@
         <h1 class="head-panel">Supplementary</h1>
         <div class="row">
             <div class="col-sm-3">
-                <a href="home.html"><button type="button" class="btn btn-primary btn-lg btn-block">Applications</button></a>
+                <button type="button" class="btn btn-primary btn-lg btn-block">Applications</button>
             </div>
             <div class="col-sm-3">
-                <a href="documents.html"><button type="button" class="btn btn-primary btn-lg btn-block">Event information</button></a>
+                <button type="button" class="btn btn-primary btn-lg btn-block">Event information</button>
             </div>
             <div class="col-sm-3">
-                <a href="https://www.facebook.com/events/118465608814440/" target="_blank"><button type="button" class="btn btn-primary btn-lg btn-block">Volunteering</button></a>
+                <button type="button" class="btn btn-primary btn-lg btn-block">Volunteering</button>
             </div>
             <div class="col-sm-3">
-                <a href="documents.html"><button type="button" class="btn btn-primary btn-lg btn-block">Other</button></a>
+                <button type="button" class="btn btn-primary btn-lg btn-block">Other</button>
             </div>
         </div>
         <div align="left">
@@ -63,7 +64,29 @@
         </div>
     </div>
 
-<h2 class="head-panel">Deadlines and office hours</h2>
+    <div class="tab">
+        <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">London</button>
+        <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
+        <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+    </div>
+
+    <div id="London" class="tabcontent">
+        <h3>London</h3>
+        <p>London is the capital city of England.</p>
+    </div>
+
+    <div id="Paris" class="tabcontent">
+        <h3>Paris</h3>
+        <p>Paris is the capital of France.</p>
+    </div>
+
+    <div id="Tokyo" class="tabcontent">
+        <h3>Tokyo</h3>
+        <p>Tokyo is the capital of Japan.</p>
+    </div>
+
+
+    <h2 class="head-panel">Deadlines and office hours</h2>
 <div class="calendars container-fluid">
     <div class="key">
         <div class="container-fluid"><div class="keys key1"></div> <div class="keyans">= Deadline</div> <div class="keys key2"></div> <div class="keyans">= Office Hours</div></div>

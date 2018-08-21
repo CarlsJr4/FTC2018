@@ -348,7 +348,7 @@ ul.calendar {
 /* Days (1-31) */
 .days {
   padding: 10px 0;
-  background: #8D6542;
+  background: white;
   margin: 0;
 }
 .days li {
