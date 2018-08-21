@@ -42,27 +42,30 @@
         <p>Get involved!</p>
         <div class="row tab">
             <div class="col-sm-3">
-                <button type="button" class="btn btn-primary btn-lg btn-block tablinks" onclick="openCity(event, 'London')" id="defaultOpen">Applications</button>
+                <button type="button" class="btn btn-primary btn-lg btn-block tablinks" onclick="openDownload(event, 'apps')" id="defaultOpen">Applications</button>
             </div>
             <div class="col-sm-3">
-                <button type="button" class="btn btn-primary btn-lg btn-block tablinks" onclick="openCity(event, 'Paris')">Event information</button>
+                <button type="button" class="btn btn-primary btn-lg btn-block tablinks" onclick="openDownload(event, 'info')">Event information</button>
             </div>
             <div class="col-sm-3">
-                <button type="button" class="btn btn-primary btn-lg btn-block tablinks" onclick="openCity(event, 'Tokyo')">Volunteering</button>
+                <button type="button" class="btn btn-primary btn-lg btn-block tablinks" onclick="openDownload(event, 'volunteer')">Volunteering</button>
             </div>
             <div class="col-sm-3">
-                <button type="button" class="btn btn-primary btn-lg btn-block">Other</button>
+                <button type="button" class="btn btn-primary btn-lg btn-block tablinks" onclick="openDownload(event, 'volunteer')">Other</button>
             </div>
         </div>
         <div align="left">
-            <div class="download-panel tabcontent" id="London">
+            <div class="download-panel tabcontent" id="apps">
                 <a>Download 1</a>
             </div>
-            <div class="download-panel tabcontent" id="Paris">
+            <div class="download-panel tabcontent" id="info">
                 <a>Download 2</a>
             </div>
-            <div class="download-panel tabcontent" id="Tokyo">
+            <div class="download-panel tabcontent" id="volunteer">
                 <a>Download 3</a>
+            </div>
+            <div class="download-panel tabcontent" id="other">
+                <a>Download 4</a>
             </div>
         </div>
     </div>
