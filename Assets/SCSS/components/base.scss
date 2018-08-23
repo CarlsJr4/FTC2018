@@ -11,28 +11,6 @@ body {
   background-size: cover;
 }
 
-h1 {
-  font-family: $primary2;
-}
-
-h2 {
-  font-family: $sub1;
-}
-
-h3, h4 {
-  font-family: $sub2;
-}
-
-p, a, h5, button {
-  font-family: $body;
-}
-
-a {
-  color: white;
-  &:hover {
-    text-decoration: none;
-  }
-}
 
 //Elements
 .card-img-top {
@@ -45,6 +23,7 @@ a {
   border: 0;
   transition: all .2s ease;
   border: 3px double white;
+  font-family: 'scope one';
   &:hover {
     color: black;
     background-color: $btn-hover;
@@ -70,6 +49,7 @@ a {
   max-width: 40%;
   padding: 1%;
   margin: 1em;
+  color: white;
 }
 
 .sign { //For making headers look like signs
@@ -77,15 +57,19 @@ a {
 }
 
 .paragraph-panel {
-  //@extend .head-panel;
   color: white;
   background-color: $sub-panel-color;
   padding: 2%;
+  border: 3px dashed white;
 }
 
 .footer-panel {
-  background-color: $yellow;
+  background-color: $sub-panel-color2;
   padding: 2%;
+}
+
+.card {
+  border: 3px dashed white;
 }
 
 

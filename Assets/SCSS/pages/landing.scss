@@ -26,16 +26,16 @@ Jumbotron section
 .vl {
   height: 3em;
   width: 33%;
-  border-left: 10px solid $sub-panel-color;
-  border-right: 10px solid $sub-panel-color;
+  border-left: 10px solid $sign-holders;
+  border-right: 10px solid $sign-holders;
 }
 
 .sub-welcome {
   width: 40%;
-  background-color: $sub-panel-color2;
+  background-color: $sub-panel-color;
   padding: 1%;
-  border: 3px double white;
-  color: white;
+  border: 8px double white;
+  color: black;
 }
 
 #mini-nav {
@@ -48,7 +48,6 @@ Jumbotron section
 Description section
 -------------------------------- */
 #pitch {
-  background-color: $yellow;
   height: 95vh;
 }
 
@@ -79,7 +78,6 @@ Description section
 }
 
 #pitch-btn {
-  background-color: #F9A41D;
   padding: 1.5% 10%;
   &:hover {
     background-color: $btn-hover;

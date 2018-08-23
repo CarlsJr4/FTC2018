@@ -24,21 +24,9 @@ Applied colors
   font-family: "market";
   src: url(../Fonts/uptown-market.ttf) format("truetype");
 }
-html {
-  margin-top: 5%;
-}
-
-body {
-  background-color: #FECC4C;
-  background: url("../Images/background-sample5.jpg");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 h1 {
-  font-family: "ostrich";
+  font-family: "milkshake";
+  color: white;
 }
 
 h2 {
@@ -60,16 +48,30 @@ a:hover {
   text-decoration: none;
 }
 
+html {
+  margin-top: 5%;
+}
+
+body {
+  background-color: #FECC4C;
+  background: url("../Images/background-sample5.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .card-img-top {
   max-height: 20em;
 }
 
 .btn {
   border-radius: 50px;
-  background-color: #025939;
+  background-color: #C12228;
   border: 0;
   transition: all 0.2s ease;
   border: 3px double white;
+  font-family: "scope one";
 }
 .btn:hover {
   color: black;
@@ -83,18 +85,19 @@ a:hover {
 }
 
 .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
-  background-color: #025939;
-  border-color: #025939;
+  background-color: #C12228;
+  border-color: #C12228;
 }
 
 .head-panel {
-  background-color: #A0B82F;
+  background-color: #C12228;
   clip-path: polygon(100% 0, 95% 50%, 100% 100%, 0% 100%, 5% 50%, 0% 0%);
   border: 5px double white;
   width: auto;
   max-width: 40%;
   padding: 1%;
   margin: 1em;
+  color: white;
 }
 
 .sign {
@@ -103,17 +106,30 @@ a:hover {
 
 .paragraph-panel {
   color: white;
-  background-color: #0B7868;
+  background-color: #F9A41D;
   padding: 2%;
+  border: 3px dashed white;
 }
 
 .footer-panel {
-  background-color: #FECC4C;
+  background-color: #A0B82F;
   padding: 2%;
 }
 
+.card {
+  border: 3px dashed white;
+}
+
 .custom-nav {
-  background-color: #EAD1A1 !important;
+  background-color: #A0B82F !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-light .navbar-brand {
+  color: white;
 }
 
 /* --------------------------------
@@ -145,29 +161,28 @@ Jumbotron section
 .vl, .vl-header {
   height: 3em;
   width: 33%;
-  border-left: 10px solid #0B7868;
-  border-right: 10px solid #0B7868;
+  border-left: 10px solid #8D6542;
+  border-right: 10px solid #8D6542;
 }
 
 .sub-welcome {
   width: 40%;
-  background-color: #8D6542;
+  background-color: #F9A41D;
   padding: 1%;
-  border: 3px double white;
-  color: white;
+  border: 8px double white;
+  color: black;
 }
 
 #mini-nav, .download-bg {
   margin: 0;
   padding: 2%;
-  background-color: #8D6542;
+  background-color: #A0B82F;
 }
 
 /* --------------------------------
 Description section
 -------------------------------- */
 #pitch {
-  background-color: #FECC4C;
   height: 95vh;
 }
 
@@ -198,7 +213,6 @@ Description section
 }
 
 #pitch-btn {
-  background-color: #F9A41D;
   padding: 1.5% 10%;
 }
 #pitch-btn:hover {
@@ -210,7 +224,7 @@ Activity cards
 -------------------------------- */
 .activities {
   padding: 10%;
-  background-color: #0B7868;
+  background-color: #F9A41D;
   color: white;
 }
 
@@ -221,7 +235,7 @@ Activity cards
 
 .carousel {
   padding: 1em;
-  background-color: #A0B82F;
+  background-color: #F9A41D;
 }
 
 .carousel-item {
@@ -233,12 +247,12 @@ Activity cards
 }
 
 .card-header {
-  background-color: #8D6542;
+  background-color: #A0B82F;
   color: white;
 }
 
 .badge-general {
-  background-color: #A0B82F;
+  background-color: #C12228;
 }
 
 .badge-deadline {
@@ -252,7 +266,7 @@ Documents
   margin: 0 2% 2% 2%;
   border-radius: 10px;
   background-color: white;
-  border: 3px solid #8D6542;
+  border: 3px solid #A0B82F;
 }
 
 .download-panel {

@@ -3,3 +3,30 @@
 @font-face { font-family: 'milkshake'; src: url(../Fonts/Milkshake.ttf) format('truetype');}
 @font-face { font-family: 'ostrich'; src: url(../Fonts/ostrich-regular.ttf) format('truetype'); }
 @font-face { font-family: 'market'; src: url(../Fonts/uptown-market.ttf) format('truetype'); }
+
+h1 {
+  font-family: $primary1;
+  color: white;
+}
+
+h2 {
+  font-family: $sub1;
+}
+
+h3, h4 {
+  font-family: $sub2;
+  //font-weight: bold;
+}
+
+p, a, h5, button {
+  font-family: $body;
+}
+
+button {}
+
+a {
+  color: white;
+  &:hover {
+    text-decoration: none;
+  }
+}
