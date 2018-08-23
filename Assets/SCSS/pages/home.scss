@@ -1,0 +1,30 @@
+.carousel {
+  padding: 1em;
+  background-color: $panel-color;
+}
+
+.carousel-item {
+  max-height: 25em;
+}
+
+.news {
+  margin-bottom: 5%;
+}
+
+.card-header {
+  background-color: $sub-panel-color2;
+  color: white;
+}
+
+.badge-general {
+  background-color: $panel-color;
+}
+
+.badge-deadline {
+  background-color: $salmon;
+}
+
+.vl-header {
+  @extend .vl;
+}
+

@@ -1,10 +1,210 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>Documents | FTC 2018</title>
+    <!-- Required meta tags -->
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="Assets/CSS/main.css">
+    <!-- Icons-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <!-- Navbar script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#includedContent").load("nav.html");
+        });
+    </script>
+    <!-- Additional bootstrap scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </head>
-<body>
 
+<body>
+<div id="includedContent"></div>
+
+<div align="center">
+    <h2 class="head-panel sign">Documents</h2>
+    <div class="vl"></div>
+    <div id="download-bg">
+        <h1>Required</h1>
+        <p>Required by everyone!</p>
+        <div align="left">
+            <div class="download-panel">
+                <a>Download 1<i class="fas fa-download"></i></a>
+            </div>
+            <div class="download-panel">
+                <a>Download 2<i class="fas fa-download"></i></a>
+            </div>
+        </div>
+        <h1>Supplementary</h1>
+        <p>Get involved!</p>
+        <div class="row tab">
+            <div class="col-sm-3">
+                <button type="button" class="btn btn-primary btn-lg btn-block tablinks" onclick="openDownload(event, 'apps')" id="defaultOpen">Applications</button>
+            </div>
+            <div class="col-sm-3">
+                <button type="button" class="btn btn-primary btn-lg btn-block tablinks" onclick="openDownload(event, 'info')">Event information</button>
+            </div>
+            <div class="col-sm-3">
+                <button type="button" class="btn btn-primary btn-lg btn-block tablinks" onclick="openDownload(event, 'volunteer')">Volunteering</button>
+            </div>
+            <div class="col-sm-3">
+                <button type="button" class="btn btn-primary btn-lg btn-block tablinks" onclick="openDownload(event, 'other')">Other</button>
+            </div>
+        </div>
+        <div align="left">
+            <div class="download-panel tabcontent" id="apps">
+                <a>Download 1</a>
+            </div>
+            <div class="download-panel tabcontent" id="info">
+                <a>Download 2</a>
+            </div>
+            <div class="download-panel tabcontent" id="volunteer">
+                <a>Download 3</a>
+            </div>
+            <div class="download-panel tabcontent" id="other">
+                <a>Download 4</a>
+            </div>
+        </div>
+    </div>
+
+    <h2 class="head-panel">Deadlines and office hours</h2>
+<div class="calendars container-fluid">
+    <div class="key">
+        <div class="container-fluid"><div class="keys key1"></div> <div class="keyans">= Deadline</div> <div class="keys key2"></div> <div class="keyans">= Office Hours</div></div>
+    </div>
+    <div class="DLOH">
+        <ul>
+            <li>All Deadlines are 11:59pm PST except for Campfire Skit and Talent Act Applications due at 10pm PST</li>
+            <li>Head over to Office Hours if you have questions about any of the above!</li>
+            <li>All Office Hours are during the night (pm, PST) at <a class="lightblue" href="https://tinyurl.com/ftc17oh">tinyurl.com/ftc17oh</a></li>
+        </ul>
+    </div>
+
+<div class="September m">
+    <div class="month">
+        <ul class="calendar">
+            <li>
+                September<br>
+                <span style="font-size:23px">2017</span>
+            </li>
+        </ul>
+    </div>
+
+    <ul class="calendar weekdays">
+        <li>Su</li>
+        <li>Mo</li>
+        <li>Tu</li>
+        <li>We</li>
+        <li>Th</li>
+        <li>Fr</li>
+        <li>Sa</li>
+    </ul>
+
+    <ul class="calendar days">
+        <li class="faded">27</li>
+        <li class="faded">28</li>
+        <li class="faded">29</li>
+        <li class="faded">30</li>
+        <li class="faded">31</li>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li class="Other">4 <p>FTC LAUNCH!</p></li>
+        <li class="OH">5 <p>5-6 Entertainment & Dining</p></li>
+        <li class="OH">6 <p>8-9 Workshops</p></li>
+        <li>7</li>
+        <li>8</li>
+        <li>9</li>
+        <li>10</li>
+        <li class="OH">11 <p>8-9 Workshops</p></li>
+        <li>12</li>
+        <li class="OH">13 <p>8-9 Workshops <br> 9-10 Campfire & Talent</p></li>
+        <li class="OH">14 <p>5-6 Entertainment & Dining </p></li>
+        <li>15</li>
+        <li>16</li>
+        <li class="DL">17 <p>Workshop Host Application Due</p></li>
+        <li>18</li>
+        <li class="both"><div class="upper">19 <p>Program Ad Form Due</p></div><div class="lower"><p>10-11 Entmt & Dining</p></div></li>
+        <li>20</li>
+        <li>21</li>
+        <li class="OH">22 <p>9-10 Entertainment & Dining</p></li>
+        <li class="DL">23 <p>DJ Application Due</p></li>
+        <li>24</li>
+        <li>25</li>
+        <li>26</li>
+        <li>27</li>
+        <li>28</li>
+        <li>29</li>
+        <li>30</li>
+
+    </ul>
+</div>
+
+<div class="October m">
+    <div class="month">
+        <ul class="calendar">
+            <li>
+                October<br>
+                <span style="font-size:23px">2017</span>
+            </li>
+        </ul>
+    </div>
+
+    <ul class="calendar weekdays">
+        <li>Su</li>
+        <li>Mo</li>
+        <li>Tu</li>
+        <li>We</li>
+        <li>Th</li>
+        <li>Fr</li>
+        <li>Sa</li>
+    </ul>
+
+    <ul class="calendar days">
+        <li>1</li>
+        <li class="OH">2 <p>7-8 Campfire <br> 9-10 Team Act.</p></li>
+        <li class="OH">3 <p>9-10 Registration</p></li>
+        <li class="OH">4 <p>8-9 Campfire & Talent <br> 9-10 Team Act.</p></li>
+        <li class="both"><div class="upper">5 <p>Team Captain App Due</p></div><div class="lower"><p>10-12 Team Act.</p></div></li>
+        <li class="DL">6 <p>Program Submissions Due</p></li>
+        <li>7</li>
+        <li>8</li>
+        <li class="OH">9 <p>6-7 SAA</p></li>
+        <li>10</li>
+        <li class="OH">11 <p>9-10 Campfire & Talent <br> 10-11 Registr.</p></li>
+        <li class="both"><div class="upper">12 <p>Early Registr. Due</p></div><div class="lower"><p>9-10 Campfire & Talent</p></div></li>
+        <li class="both"><div class="upper">13 <p>Op. Slideshow & Early SAA Due</p></div><div class="lower"><p>10-11 SAA</p></div></li>
+        <li class="DL">14 <p>Campfire Skit and Talent Act Applications Due</p></li>
+        <li>15</li>
+        <li>16</li>
+        <li>17</li>
+        <li class="OH">18 <p>10-11 Registration</p></li>
+        <li class="DL">19 <p>Late Registration Due</p></li>
+        <li class="both"><div class="upper">20 <p>Final SAA Reg. Due</p></div><div class="lower"><p>10-12 SAA</p></div></li>
+        <li>21</li>
+        <li>22</li>
+        <li>23</li>
+        <li>24</li>
+        <li>25</li>
+        <li>26</li>
+        <li>27</li>
+        <li>28</li>
+        <li>29</li>
+        <li>30</li>
+        <li>31</li>
+        <li class="faded">1</li>
+        <li class="faded">2</li>
+        <li class="faded Other">3 <p>FTC BEGINS!</p></li>
+        <li class="faded">4</li>
+    </ul>
+</div>
+</div>
+</div>
+<script src="Assets/JS/tabs.js"></script>
 </body>
 </html>

@@ -1,106 +1,115 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="margin-top: 0;">
 <head>
-    <title>Welcome | FTC 2018</title>
+    <title>Home | FTC 2018</title>
     <!-- Required meta tags -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="Assets/CSS/main.css">
+    <!-- Icons-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <!-- Navbar script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#includedContent").load("nav.html");
+        });
+    </script>
+    <!-- Additional bootstrap scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </head>
-
-<style>
-    button {
-        width:100%;
-    }
-</style>
 
 <body>
 <div id="includedContent"></div>
 
 <div class="jumbotron">
-    <div class="container" align="center">
-            <h1>Welcome to FTC 2018</h1>
-            <h3>Experience one of the biggest district events of the year!</h3>
+    <div class="container" align="center" id="welcome">
+            <h1 class="display-4 head-panel" id="FTC-title">Fall Training Conference 2018</h1>
+            <div class="vl"></div>
+            <h2 class="sub-welcome">"100% Fresh"</h2>
+            <p class="sub-welcome">November 2nd - November 4th, Sonora, CA</p>
+    </div>
+</div>
+<div class="container-fluid" id="mini-nav">
+    <div class="row">
+        <div class="col-sm-4">
+            <a href="home.html"><button type="button" class="btn btn-primary btn-lg btn-block">News</button></a>
+        </div>
+        <div class="col-sm-4">
+            <a href="documents.html"><button type="button" class="btn btn-primary btn-lg btn-block">Documents</button></a>
+        </div>
+        <div class="col-sm-4">
+            <a href="https://www.facebook.com/events/118465608814440/" target="_blank"><button type="button" class="btn btn-primary btn-lg btn-block">Social Media</button></a>
+        </div>
     </div>
 </div>
 
 
 <div class="center" align="center">
-    <p>Insert countdown timer here</p>
+    <!-- <p>Don't miss out on this amazing deal!</p>-->
 
+    <div id="pitch">
+        <img id="landing-img-left" src="Assets/Images/group.jpg">
+        <div id="pitch-right">
+            <h2 class="head-panel" id="now-serving">Now serving 700</h2>
+            <p class="paragraph-panel" id="FTC-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua.</p>
+
+        </div>
+    </div>
+
+    <h2 class="head-panel">Available Now!</h2>
     <div class="container">
         <div class="row">
             <div class="col-sm-4">
-                <button type="button" class="btn btn-primary btn-lg">Home</button>
+                <div class="card activities">
+                    <img class="card-img-top" src="Assets/Images/workshop.jpg">
+                    <hr>
+                    <h3 class="card-title">Workshops</h3>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua.</p>
+                </div>
             </div>
             <div class="col-sm-4">
-                <button type="button" class="btn btn-primary btn-lg">Documents</button>
+                <div class="card activities">
+                    <img class="card-img-top" src="Assets/Images/Team.jpg">
+                    <hr>
+                    <h3 class="card-title">Campfire Skits</h3>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                        et dolore magna aliqua.</p>
+                </div>
             </div>
             <div class="col-sm-4">
-                <button type="button" class="btn btn-primary btn-lg">Social Media</button>
+                <div class="card activities">
+                    <img class="card-img-top" src="Assets/Images/Team.jpg">
+                    <hr>
+                    <h3 class="card-title">Team Bonding</h3>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                        et dolore magna aliqua.</p>
+                </div>
             </div>
         </div>
     </div>
 
     <hr>
-    <p class="lead"> [###] Attended Fall Training Conference in 2017!</p>
-    <hr>
 
-    <p class="lead">A short description of FTC</p>
-    <p>Another short description</p>
-    <h1>Description</h1>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-4">
-                <div class="card">
-                    <h5 class="card-title">Workshops</h5>
-                    <p>Some description</p>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="card">
-                    <h5 class="card-title">Campfire Skits</h5>
-                    <p>Some description</p>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="card">
-                    <h5 class="card-title">Team Bonding</h5>
-                    <p>Some description</p>
-                </div>
-            </div>
-        </div>
+    <div class="footer-panel">
+        <h3>Find everything you need to get involved here!</h3>
+        <a href="documents.html" target="_blank"><button id="pitch-btn" type="button" class="btn btn-primary btn-lg">Documents</button></a>
     </div>
-
-    <hr>
-
-    <div class="container">
-        <h2>Don't miss out on FTC 2018!</h2>
-        <button type="button" class="btn btn-primary btn-lg">Documents</button>
-    </div>
-
-
-
 </div>
 
-
-
-
-
-
 <!-- Optional JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script>
-    $(function(){
-      $("#includedContent").load("nav.html");
-});
-</script>
+<!-- jQuery first, then Popper.js, then Bootstrap JS
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script> -->
 </body>
 </html>

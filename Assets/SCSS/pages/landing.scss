@@ -1,0 +1,102 @@
+/* --------------------------------
+Jumbotron section
+-------------------------------- */
+.jumbotron {
+  height: 85vh;
+  margin: 0;
+    background: {
+      image: url(../Images/group.jpg);
+      repeat: no-repeat;
+      size: cover;
+      position: 0% 20%;
+    }
+}
+
+#welcome {
+  margin-top: 1%;
+}
+
+#FTC-title {
+  max-width: 100%;
+  margin-bottom: 0;
+  margin-top: 0;
+  border: 10px double white;
+}
+
+.vl {
+  height: 3em;
+  width: 33%;
+  border-left: 10px solid $sub-panel-color;
+  border-right: 10px solid $sub-panel-color;
+}
+
+.sub-welcome {
+  width: 40%;
+  background-color: $sub-panel-color2;
+  padding: 1%;
+  border: 3px double white;
+  color: white;
+}
+
+#mini-nav {
+  margin: 0;
+  padding: 2%;
+  background-color: $sub-panel-color2;
+}
+
+/* --------------------------------
+Description section
+-------------------------------- */
+#pitch {
+  background-color: $yellow;
+  height: 95vh;
+}
+
+#landing-img-left {
+  position: absolute;
+  height: 85%;
+  left: 0;
+  top: 110%;
+  padding: 2%;
+}
+
+#pitch-right {
+  position: relative;
+  top: 60%;
+}
+
+#now-serving {
+  position: relative;
+  width: 25%;
+  left: 13%;
+  margin-bottom: 0;
+}
+
+#FTC-desc {
+  position: relative;
+  width: 50%;
+  left: 12.5%;
+}
+
+#pitch-btn {
+  background-color: #F9A41D;
+  padding: 1.5% 10%;
+  &:hover {
+    background-color: $btn-hover;
+  }
+}
+
+/* --------------------------------
+Activity cards
+-------------------------------- */
+.activities {
+  padding: 10%;
+  background-color: $sub-panel-color;
+  color: white;
+}
+
+.card-title {
+  margin: 0;
+  color: black;
+}
+

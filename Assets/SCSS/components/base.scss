@@ -1,0 +1,93 @@
+html {
+  margin-top: 5%;
+}
+
+body {
+  background-color: $yellow;
+  background: url('../Images/background-sample5.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  font-family: $primary2;
+}
+
+h2 {
+  font-family: $sub1;
+}
+
+h3, h4 {
+  font-family: $sub2;
+}
+
+p, a, h5, button {
+  font-family: $body;
+}
+
+a {
+  color: white;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+//Elements
+.card-img-top {
+  max-height: 20em;
+}
+
+.btn {
+  border-radius: 50px;
+  background-color: $btn;
+  border: 0;
+  transition: all .2s ease;
+  border: 3px double white;
+  &:hover {
+    color: black;
+    background-color: $btn-hover;
+    border: 3px solid white;
+    transform: scale(1.01) perspective(1px);
+  }
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
+  box-shadow: none; //disables blue border when clicking buttons
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+  background-color: $btn;
+  border-color: $btn;
+}
+
+.head-panel {
+  background-color: $panel-color;
+  clip-path: polygon(100% 0, 95% 50%, 100% 100%, 0% 100%, 5% 50%, 0% 0%); //ribbon shape
+  border: 5px double white;
+  width: auto;
+  max-width: 40%;
+  padding: 1%;
+  margin: 1em;
+}
+
+.sign { //For making headers look like signs
+  margin-bottom: 0;
+}
+
+.paragraph-panel {
+  //@extend .head-panel;
+  color: white;
+  background-color: $sub-panel-color;
+  padding: 2%;
+}
+
+.footer-panel {
+  background-color: $yellow;
+  padding: 2%;
+}
+
+
+
+

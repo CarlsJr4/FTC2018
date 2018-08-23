@@ -1,0 +1,216 @@
+/* --------------------------------
+Documents
+-------------------------------- */
+#download-bg {
+  @extend #mini-nav;
+  margin: 0 2% 2% 2%;
+  border-radius: 10px;
+  background-color: white;
+  border: 3px solid $sub-panel-color2;
+}
+
+.download-panel {
+  background-color: $beige;
+  padding: 1%;
+  margin: 1%;
+  align-content: left;
+  border-radius: 10px;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+  background-color: $yellow;
+  border: 3px solid white;
+}
+
+/* --------------------------------
+Calendar
+-------------------------------- */
+div {
+  .calendars{
+    max-width: 1000px;
+    margin-bottom: 0;
+  }
+
+  .key{
+    font-family: "market";
+    text-align: left;
+    color: black;
+    font-size: 18px;
+    background: white;
+    line-height: 12px;
+    height: 50px;
+    width: 400px;
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+
+  .DLOH{
+    font-family: "rubik";
+    text-align: left;
+    font-size: 12px;
+    padding: 10px 0;
+    line-height: 20px;
+  }
+
+  .keyans{
+    height: 30px;
+    display: inline-block;
+    float: left;
+    padding-top: 10px;
+  }
+
+  .keys{
+    width: 40px;
+    height: 30px;
+    display: inline-block;
+    float: left;
+    margin-right: 10px;
+
+  }
+
+  .key1{
+    background: $deadline;
+  }
+
+  .key2{
+    background: $office-hour;
+    margin-left: 20px;
+  }
+
+  .m{
+    margin-bottom: 50px;
+  }
+
+  .October{
+    margin-bottom: 0;
+  }
+}
+
+
+ul.calendar {list-style-type: none;}
+
+/* Month header */
+.month {
+  font-family: "ostrich";
+  padding: 15px 25px;
+  width: 100%;
+  background: $cal-month;
+  text-align: center;
+  line-height: 35px;
+}
+
+
+/* Month list */
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  padding: 0;
+  color: white;
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+/* Weekdays (Sun-Sat) */
+.weekdays {
+  margin: 0;
+  padding: 5px 0;
+  background-color:$cal-day;
+}
+
+.weekdays li {
+  margin: 0; padding: 0;
+  display: inline-block;
+  width: 13.6%;
+  color: white;
+  text-align: center;
+  margin: 0 -2.5px 0 -2.5px;
+}
+
+
+/* Days (1-31) */
+.days {
+  padding: 10px 0;
+  background: white;
+  margin: 0;
+    li {
+    list-style-type: none;
+    display: inline-block;
+    position: relative;
+    z-index: 0;
+    width: 14%;
+    height: 110px;
+    text-align: left;
+    padding: 0 0.4% 0 0.7%;
+    font-size: 14px;
+    margin: 0 -2.5px -2px -2.5px;
+    color: black;
+    border: 1px solid white;
+  }
+}
+
+li {
+  .DL{
+    background: $deadline;
+    color: white;
+  }
+
+  .OH{
+    background: $office-hour;
+    color: white;
+  }
+
+  .both{
+    padding: 0;
+  }
+}
+
+div.upper{
+  height: 60%; margin: 0; padding: 0 4%;
+  background: $deadline;
+  color: white;
+}
+
+div.lower{
+  height: 40%; margin: 0; padding: 0 4%;
+  background: $office-hour;
+  color: white;
+}
+
+li.faded{
+  color: #b3b3b3;
+}
+
+/* Highlight the "current" day */
+.days li .active {
+  padding: 5px;
+  background: #1abc9c;
+  color: white !important
+}
+
+ul.calendar li p{
+  margin-left: -3px;
+  position: absolute;
+  z-index: 1;
+}
+
+
+li.Other p{
+  color: black;
+  font-size: 15px;
+}
+
+@media only screen and (max-width: 1000px) {
+  li p{
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  li p{
+    font-size: 10px;
+  }
+}
