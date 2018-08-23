@@ -1,14 +1,19 @@
-//Main
+/* --------------------------------
+Main components
+-------------------------------- */
 @import 'components/variables';
 @import 'components/typography';
 @import 'components/base';
 @import 'components/nav';
 
-//Pages
+/* --------------------------------
+Pages
+-------------------------------- */
 @import 'pages/landing';
 @import 'pages/home';
 @import 'pages/documents';
 @import 'pages/committee';
+@import 'pages/FAQ';
 
 
 
