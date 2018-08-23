@@ -1,7 +1,7 @@
 /* --------------------------------
 Documents
 -------------------------------- */
-#download-bg {
+.download-bg {
   @extend #mini-nav;
   margin: 0 2% 2% 2%;
   border-radius: 10px;
@@ -15,11 +15,30 @@ Documents
   margin: 3%;
   align-content: left;
   border-radius: 10px;
+  border: 3px solid transparent;
+  &:hover {
+    background-color: white;
+    border: 3px solid $beige;
+    color: black;
+  }
 }
 
 .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
   background-color: $yellow;
   border: 3px solid white;
+}
+
+.fa-plus {
+  float: right;
+  font-size: 25px;
+  &:hover {
+    color: $light-green;
+  }
+}
+
+.fa-download {
+  font-size: 20px;
+  padding-left: 10px;
 }
 
 /* --------------------------------

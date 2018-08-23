@@ -157,7 +157,7 @@ Jumbotron section
   color: white;
 }
 
-#mini-nav, #download-bg {
+#mini-nav, .download-bg {
   margin: 0;
   padding: 2%;
   background-color: #8D6542;
@@ -248,7 +248,7 @@ Activity cards
 /* --------------------------------
 Documents
 -------------------------------- */
-#download-bg {
+.download-bg {
   margin: 0 2% 2% 2%;
   border-radius: 10px;
   background-color: white;
@@ -261,11 +261,30 @@ Documents
   margin: 3%;
   align-content: left;
   border-radius: 10px;
+  border: 3px solid transparent;
+}
+.download-panel:hover {
+  background-color: white;
+  border: 3px solid #EAD1A1;
+  color: black;
 }
 
 .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
   background-color: #FECC4C;
   border: 3px solid white;
+}
+
+.fa-plus {
+  float: right;
+  font-size: 25px;
+}
+.fa-plus:hover {
+  color: #A0B82F;
+}
+
+.fa-download {
+  font-size: 20px;
+  padding-left: 10px;
 }
 
 /* --------------------------------
@@ -469,6 +488,10 @@ img.img-circle {
 .rotate-reset {
   transform: rotate(0deg);
   transition: 0.3s;
+}
+
+.fa-caret-right {
+  padding-left: 20px;
 }
 
 /*# sourceMappingURL=main.css.map */
