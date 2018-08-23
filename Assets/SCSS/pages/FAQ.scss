@@ -1,0 +1,9 @@
+.rotate {
+  transform: rotate(90deg);
+  transition: .3s;
+}
+
+.rotate-reset {
+  transform: rotate(0deg);
+  transition: .3s;
+}

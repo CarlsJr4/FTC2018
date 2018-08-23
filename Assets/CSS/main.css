@@ -1,4 +1,7 @@
 /* --------------------------------
+Main components
+-------------------------------- */
+/* --------------------------------
 Fonts
 -------------------------------- */
 /* --------------------------------
@@ -113,6 +116,9 @@ a:hover {
   background-color: #EAD1A1 !important;
 }
 
+/* --------------------------------
+Pages
+-------------------------------- */
 /* --------------------------------
 Jumbotron section
 -------------------------------- */
@@ -251,8 +257,8 @@ Documents
 
 .download-panel {
   background-color: #EAD1A1;
-  padding: 1%;
-  margin: 1%;
+  padding: 3%;
+  margin: 3%;
   align-content: left;
   border-radius: 10px;
 }
@@ -453,6 +459,16 @@ div.profile {
 img.img-circle {
   margin: 0 auto;
   width: 60%;
+}
+
+.rotate {
+  transform: rotate(90deg);
+  transition: 0.3s;
+}
+
+.rotate-reset {
+  transform: rotate(0deg);
+  transition: 0.3s;
 }
 
 /*# sourceMappingURL=main.css.map */
