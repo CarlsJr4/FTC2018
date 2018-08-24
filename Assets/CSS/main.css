@@ -121,7 +121,7 @@ body {
 }
 
 .grocery-head {
-  background-color: #A0B82F;
+  background: url("../Images/header-background-sample.jpg");
   margin-bottom: 2%;
   border-bottom: 10px solid #AFCAE3;
   padding-top: 2%;
