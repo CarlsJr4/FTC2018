@@ -49,12 +49,12 @@ a:hover {
 }
 
 html {
-  margin-top: 5%;
+  margin-top: 3%;
 }
 
 body {
-  background-color: #FECC4C;
   background: url("../Images/background-sample5.jpg");
+  background-color: #FECC4C;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -67,7 +67,7 @@ body {
 
 .btn {
   border-radius: 50px;
-  background-color: #C12228;
+  background-color: #F9A41D;
   border: 0;
   transition: all 0.2s ease;
   border: 3px double white;
@@ -85,12 +85,12 @@ body {
 }
 
 .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
-  background-color: #C12228;
-  border-color: #C12228;
+  background-color: #F9A41D;
+  border-color: #F9A41D;
 }
 
 .head-panel {
-  background-color: #C12228;
+  background-color: #AFCAE3;
   clip-path: polygon(100% 0, 95% 50%, 100% 100%, 0% 100%, 5% 50%, 0% 0%);
   border: 5px double white;
   width: auto;
@@ -106,13 +106,13 @@ body {
 
 .paragraph-panel {
   color: white;
-  background-color: #F9A41D;
+  background-color: #A0B82F;
   padding: 2%;
   border: 3px dashed white;
 }
 
 .footer-panel {
-  background-color: #A0B82F;
+  background-color: #F48151;
   padding: 2%;
 }
 
@@ -120,8 +120,16 @@ body {
   border: 3px dashed white;
 }
 
+.grocery-head {
+  background: url("../Images/header-background-sample.jpg");
+  margin-bottom: 2%;
+  border-bottom: 10px solid #AFCAE3;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
 .custom-nav {
-  background-color: #A0B82F !important;
+  background-color: #F48151 !important;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -167,7 +175,7 @@ Jumbotron section
 
 .sub-welcome {
   width: 40%;
-  background-color: #F9A41D;
+  background-color: #A0B82F;
   padding: 1%;
   border: 8px double white;
   color: black;
@@ -176,7 +184,7 @@ Jumbotron section
 #mini-nav, .download-bg {
   margin: 0;
   padding: 2%;
-  background-color: #A0B82F;
+  background-color: #F48151;
 }
 
 /* --------------------------------
@@ -224,8 +232,9 @@ Activity cards
 -------------------------------- */
 .activities {
   padding: 10%;
-  background-color: #F9A41D;
+  background-color: #A0B82F;
   color: white;
+  margin: 2%;
 }
 
 .card-title {
@@ -235,7 +244,7 @@ Activity cards
 
 .carousel {
   padding: 1em;
-  background-color: #F9A41D;
+  background-color: #A0B82F;
 }
 
 .carousel-item {
@@ -247,12 +256,12 @@ Activity cards
 }
 
 .card-header {
-  background-color: #A0B82F;
+  background-color: #F48151;
   color: white;
 }
 
 .badge-general {
-  background-color: #C12228;
+  background-color: #AFCAE3;
 }
 
 .badge-deadline {
@@ -265,8 +274,8 @@ Documents
 .download-bg {
   margin: 0 2% 2% 2%;
   border-radius: 10px;
-  background-color: white;
-  border: 3px solid #A0B82F;
+  background-color: #A0B82F;
+  border: 3px solid #F48151;
 }
 
 .download-panel {
