@@ -190,15 +190,9 @@ Jumbotron section
 /* --------------------------------
 Description section
 -------------------------------- */
-#pitch {
-  height: 95vh;
-}
-
-#landing-img-left {
-  position: absolute;
-  height: 85%;
-  left: 10%;
-  padding: 2%;
+#landing-img {
+  width: 66%;
+  margin-top: 5%;
 }
 
 #pitch-words {
@@ -208,7 +202,6 @@ Description section
 
 #deal {
   width: auto;
-  margin-bottom: 0;
 }
 
 #FTC-desc {
