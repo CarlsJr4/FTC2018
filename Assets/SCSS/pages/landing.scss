@@ -48,13 +48,19 @@ Jumbotron section
 Description section
 -------------------------------- */
 #landing-img {
-  width: 66%;
+  width: 100%;
   margin-top: 5%;
+  border: 10px solid $sub-panel-color;
+}
+
+#pitch {
+  position: relative;
 }
 
 #pitch-words {
-  position: relative;
-  top: 75%;
+  position: absolute;
+  bottom: 1%;
+  padding: 1%;
 }
 
 #deal {
