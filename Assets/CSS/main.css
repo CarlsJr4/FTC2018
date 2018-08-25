@@ -190,28 +190,27 @@ Jumbotron section
 /* --------------------------------
 Description section
 -------------------------------- */
+#landing-img {
+  width: 75%;
+  margin-top: 5%;
+  border: 10px solid #A0B82F;
+}
+
 #pitch {
-  height: 95vh;
+  position: relative;
+  margin-bottom: 8%;
 }
 
-#landing-img-left {
+#pitch-words {
   position: absolute;
-  height: 85%;
-  left: 0;
-  top: 110%;
-  padding: 2%;
+  bottom: -10%;
+  padding: 1%;
 }
 
-#pitch-right {
-  position: relative;
-  top: 60%;
-}
-
-#now-serving {
-  position: relative;
-  width: 25%;
-  left: 13%;
+#deal {
+  width: auto;
   margin-bottom: 0;
+  max-width: 55%;
 }
 
 #FTC-desc {
@@ -305,7 +304,7 @@ Documents
   color: #A0B82F;
 }
 
-.fa-download {
+.fa-cart-arrow-down {
   font-size: 20px;
   padding-left: 10px;
 }
