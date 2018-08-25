@@ -198,19 +198,16 @@ Description section
   position: absolute;
   height: 85%;
   left: 10%;
-  top: 110%;
   padding: 2%;
 }
 
-#pitch-right {
+#pitch-words {
   position: relative;
-  top: 60%;
+  top: 75%;
 }
 
-#now-serving {
-  position: relative;
-  width: 25%;
-  left: 13%;
+#deal {
+  width: auto;
   margin-bottom: 0;
 }
 
