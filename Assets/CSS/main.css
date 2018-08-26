@@ -48,6 +48,9 @@ a:hover {
   text-decoration: none;
 }
 
+/* --------------------------------
+Main
+-------------------------------- */
 html {
   margin-top: 3%;
 }
@@ -61,6 +64,9 @@ body {
   background-size: cover;
 }
 
+/* --------------------------------
+Panels and Elements
+-------------------------------- */
 .card-img-top {
   max-height: 20em;
 }
@@ -145,6 +151,8 @@ body {
 
 .navbar-light .navbar-brand {
   color: white;
+  font-family: "Scope One";
+  font-weight: bold;
 }
 
 /* --------------------------------
@@ -356,10 +364,10 @@ div .keys {
   margin-right: 10px;
 }
 div .key1 {
-  background: #0B7868;
+  background: #AFCAE3;
 }
 div .key2 {
-  background: #A0B82F;
+  background: #F48151;
   margin-left: 20px;
 }
 div .m {
@@ -378,7 +386,7 @@ ul.calendar {
   font-family: "ostrich";
   padding: 15px 25px;
   width: 100%;
-  background: #AFCAE3;
+  background: #025939;
   text-align: center;
   line-height: 35px;
 }
@@ -401,7 +409,7 @@ ul.calendar {
 .weekdays {
   margin: 0;
   padding: 5px 0;
-  background-color: #F9A41D;
+  background-color: #A0B82F;
 }
 
 .weekdays li {
@@ -417,7 +425,7 @@ ul.calendar {
 /* Days (1-31) */
 .days {
   padding: 10px 0;
-  background: white;
+  background: #EAD1A1;
   margin: 0;
 }
 .days li {
@@ -436,11 +444,11 @@ ul.calendar {
 }
 
 li .DL {
-  background: #0B7868;
+  background: #AFCAE3;
   color: white;
 }
 li .OH {
-  background: #A0B82F;
+  background: #F48151;
   color: white;
 }
 li .both {
@@ -451,7 +459,7 @@ div.upper {
   height: 60%;
   margin: 0;
   padding: 0 4%;
-  background: #0B7868;
+  background: #AFCAE3;
   color: white;
 }
 
@@ -459,7 +467,7 @@ div.lower {
   height: 40%;
   margin: 0;
   padding: 0 4%;
-  background: #A0B82F;
+  background: #F48151;
   color: white;
 }
 
