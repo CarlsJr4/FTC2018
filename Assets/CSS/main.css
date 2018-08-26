@@ -53,7 +53,7 @@ html {
 }
 
 body {
-  background: url("../Images/groceryBG-2.jpg");
+  background: url("../Images/groceryBG-light.jpg");
   background-color: #FECC4C;
   background-attachment: fixed;
   background-position: center;
@@ -67,7 +67,7 @@ body {
 
 .btn {
   border-radius: 50px;
-  background-color: #F9A41D;
+  background-color: #025939;
   border: 0;
   transition: all 0.2s ease;
   border: 3px double white;
@@ -85,12 +85,12 @@ body {
 }
 
 .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
-  background-color: #F9A41D;
-  border-color: #F9A41D;
+  background-color: #025939;
+  border-color: #025939;
 }
 
 .head-panel {
-  background-color: #AFCAE3;
+  background-color: #025939;
   clip-path: polygon(100% 0, 95% 50%, 100% 100%, 0% 100%, 5% 50%, 0% 0%);
   border: 5px double white;
   width: auto;
@@ -111,11 +111,6 @@ body {
   border: 3px dashed white;
 }
 
-.footer-panel {
-  background-color: #F48151;
-  padding: 2%;
-}
-
 .card {
   border: 3px dashed white;
 }
@@ -123,9 +118,14 @@ body {
 .grocery-head {
   background: url("../Images/header-background-sample.jpg");
   margin-bottom: 2%;
-  border-bottom: 10px solid #AFCAE3;
+  border-bottom: 10px solid #025939;
   padding-top: 2%;
   padding-bottom: 2%;
+}
+
+.footer-panel {
+  background-color: #F48151;
+  padding: 2%;
 }
 
 .footer {
@@ -135,11 +135,12 @@ body {
 }
 
 .custom-nav {
-  background-color: #F48151 !important;
+  background-color: #025939 !important;
 }
 
 .navbar-light .navbar-nav .nav-link {
   color: white;
+  font-family: "Scope One";
 }
 
 .navbar-light .navbar-brand {
@@ -190,7 +191,7 @@ Jumbotron section
 #mini-nav, .download-bg {
   margin: 0;
   padding: 2%;
-  background-color: #F48151;
+  background-color: #A0B82F;
 }
 
 /* --------------------------------
@@ -261,12 +262,12 @@ Activity cards
 }
 
 .card-header {
-  background-color: #F48151;
+  background-color: #A0B82F;
   color: white;
 }
 
 .badge-general {
-  background-color: #AFCAE3;
+  background-color: #025939;
 }
 
 .badge-deadline {
@@ -280,7 +281,7 @@ Documents
   margin: 0 2% 2% 2%;
   border-radius: 10px;
   background-color: #A0B82F;
-  border: 3px solid #F48151;
+  border: 3px solid #A0B82F;
 }
 
 .download-panel {
