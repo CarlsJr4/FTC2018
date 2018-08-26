@@ -155,6 +155,10 @@ Panels and Elements
   font-weight: bold;
 }
 
+.fa-cart-plus {
+  color: white;
+}
+
 /* --------------------------------
 Pages
 -------------------------------- */
@@ -200,6 +204,7 @@ Jumbotron section
   margin: 0;
   padding: 2%;
   background-color: #A0B82F;
+  border: 5px dashed white;
 }
 
 /* --------------------------------
