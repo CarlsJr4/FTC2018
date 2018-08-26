@@ -53,7 +53,7 @@ html {
 }
 
 body {
-  background: url("../Images/background-sample5.jpg");
+  background: url("../Images/groceryBG-2.jpg");
   background-color: #FECC4C;
   background-attachment: fixed;
   background-position: center;
@@ -126,6 +126,11 @@ body {
   border-bottom: 10px solid #AFCAE3;
   padding-top: 2%;
   padding-bottom: 2%;
+}
+
+.footer-img {
+  background-image: url("../Images/groceryHeader.jpg");
+  height: 10em;
 }
 
 .custom-nav {
