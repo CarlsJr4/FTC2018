@@ -48,12 +48,15 @@ a:hover {
   text-decoration: none;
 }
 
+/* --------------------------------
+Main
+-------------------------------- */
 html {
   margin-top: 3%;
 }
 
 body {
-  background: url("../Images/groceryBG-2.jpg");
+  background: url("../Images/groceryBG-light.jpg");
   background-color: #FECC4C;
   background-attachment: fixed;
   background-position: center;
@@ -61,13 +64,16 @@ body {
   background-size: cover;
 }
 
+/* --------------------------------
+Panels and Elements
+-------------------------------- */
 .card-img-top {
   max-height: 20em;
 }
 
 .btn {
   border-radius: 50px;
-  background-color: #F9A41D;
+  background-color: #025939;
   border: 0;
   transition: all 0.2s ease;
   border: 3px double white;
@@ -85,12 +91,12 @@ body {
 }
 
 .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
-  background-color: #F9A41D;
-  border-color: #F9A41D;
+  background-color: #025939;
+  border-color: #025939;
 }
 
 .head-panel {
-  background-color: #AFCAE3;
+  background-color: #025939;
   clip-path: polygon(100% 0, 95% 50%, 100% 100%, 0% 100%, 5% 50%, 0% 0%);
   border: 5px double white;
   width: auto;
@@ -111,38 +117,42 @@ body {
   border: 3px dashed white;
 }
 
-.footer-panel {
-  background-color: #F48151;
-  padding: 2%;
-}
-
 .card {
   border: 3px dashed white;
 }
 
 .grocery-head {
-  background: url("../Images/header-background-sample.jpg");
+  background-color: #A0B82F;
   margin-bottom: 2%;
-  border-bottom: 10px solid #AFCAE3;
+  border-bottom: 10px solid #025939;
   padding-top: 2%;
   padding-bottom: 2%;
 }
 
-.footer-img {
-  background-image: url("../Images/groceryHeader.jpg");
-  height: 10em;
+.footer-panel {
+  background-color: #F48151;
+  padding: 2%;
+}
+
+.footer {
+  height: 300px;
+  background-image: url("../Images/footerShort.jpg");
+  background-size: cover;
 }
 
 .custom-nav {
-  background-color: #F48151 !important;
+  background-color: #025939 !important;
 }
 
 .navbar-light .navbar-nav .nav-link {
   color: white;
+  font-family: "Scope One";
 }
 
 .navbar-light .navbar-brand {
   color: white;
+  font-family: "Scope One";
+  font-weight: bold;
 }
 
 /* --------------------------------
@@ -189,7 +199,7 @@ Jumbotron section
 #mini-nav, .download-bg {
   margin: 0;
   padding: 2%;
-  background-color: #F48151;
+  background-color: #A0B82F;
 }
 
 /* --------------------------------
@@ -260,12 +270,12 @@ Activity cards
 }
 
 .card-header {
-  background-color: #F48151;
+  background-color: #A0B82F;
   color: white;
 }
 
 .badge-general {
-  background-color: #AFCAE3;
+  background-color: #025939;
 }
 
 .badge-deadline {
@@ -279,7 +289,7 @@ Documents
   margin: 0 2% 2% 2%;
   border-radius: 10px;
   background-color: #A0B82F;
-  border: 3px solid #F48151;
+  border: 3px solid #A0B82F;
 }
 
 .download-panel {
@@ -354,10 +364,10 @@ div .keys {
   margin-right: 10px;
 }
 div .key1 {
-  background: #0B7868;
+  background: #AFCAE3;
 }
 div .key2 {
-  background: #A0B82F;
+  background: #F48151;
   margin-left: 20px;
 }
 div .m {
@@ -376,7 +386,7 @@ ul.calendar {
   font-family: "ostrich";
   padding: 15px 25px;
   width: 100%;
-  background: #AFCAE3;
+  background: #025939;
   text-align: center;
   line-height: 35px;
 }
@@ -399,7 +409,7 @@ ul.calendar {
 .weekdays {
   margin: 0;
   padding: 5px 0;
-  background-color: #F9A41D;
+  background-color: #A0B82F;
 }
 
 .weekdays li {
@@ -415,7 +425,7 @@ ul.calendar {
 /* Days (1-31) */
 .days {
   padding: 10px 0;
-  background: white;
+  background: #EAD1A1;
   margin: 0;
 }
 .days li {
@@ -434,11 +444,11 @@ ul.calendar {
 }
 
 li .DL {
-  background: #0B7868;
+  background: #AFCAE3;
   color: white;
 }
 li .OH {
-  background: #A0B82F;
+  background: #F48151;
   color: white;
 }
 li .both {
@@ -449,7 +459,7 @@ div.upper {
   height: 60%;
   margin: 0;
   padding: 0 4%;
-  background: #0B7868;
+  background: #AFCAE3;
   color: white;
 }
 
@@ -457,7 +467,7 @@ div.lower {
   height: 40%;
   margin: 0;
   padding: 0 4%;
-  background: #A0B82F;
+  background: #F48151;
   color: white;
 }
 
