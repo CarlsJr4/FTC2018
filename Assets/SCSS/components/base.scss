@@ -97,6 +97,30 @@ Panels and Elements
   }
 }
 
+/* --------------------------------
+Mobile
+-------------------------------- */
+@media only screen and (max-width: 576px) {
+  html {
+    margin-top: 10%;
+  }
+
+  .head-panel {
+    max-width: 100%
+  }
+
+  .paragraph-panel {
+    padding: 10%;
+  }
+
+  .footer {
+    height: 100px;
+  }
+
+  .footer-panel {
+    padding: 10%;
+  }
+}
 
 
 

@@ -140,6 +140,30 @@ Panels and Elements
   background-size: cover;
 }
 
+/* --------------------------------
+Mobile
+-------------------------------- */
+@media only screen and (max-width: 576px) {
+  html {
+    margin-top: 10%;
+  }
+
+  .head-panel {
+    max-width: 100%;
+  }
+
+  .paragraph-panel {
+    padding: 10%;
+  }
+
+  .footer {
+    height: 100px;
+  }
+
+  .footer-panel {
+    padding: 10%;
+  }
+}
 .custom-nav {
   background-color: #025939 !important;
 }
@@ -250,7 +274,7 @@ Activity cards
   background-color: #A0B82F;
   color: white;
   margin: 2%;
-  min-height: 300px;
+  min-height: 275px;
 }
 
 .card-title {
@@ -505,6 +529,11 @@ li.Other p {
     font-size: 10px;
   }
 }
+@media only screen and (max-width: 576px) {
+  .key {
+    max-width: 100%;
+  }
+}
 img.group {
   width: 100%;
 }
@@ -519,6 +548,11 @@ img.img-circle {
   width: 60%;
 }
 
+@media only screen and (max-width: 576px) {
+  #committeeImg {
+    max-width: 100%;
+  }
+}
 .rotate {
   transform: rotate(90deg);
   transition: 0.3s;
