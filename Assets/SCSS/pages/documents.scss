@@ -6,7 +6,7 @@ Documents
   margin: 0 2% 2% 2%;
   border-radius: 10px;
   background-color: $sub-panel-color;
-  border: 3px solid $sub-panel-color2;
+  border: 5px dashed white;
 }
 
 .download-panel {
@@ -41,6 +41,9 @@ Documents
   padding-left: 10px;
 }
 
+.supplement {
+  margin: 5%;
+}
 /* --------------------------------
 Calendar
 -------------------------------- */
@@ -54,13 +57,13 @@ div {
     font-family: "market";
     text-align: left;
     color: black;
-    font-size: 18px;
-    background: white;
+    background-color: $beige;
     line-height: 12px;
     height: 50px;
     width: 400px;
     margin-bottom: 20px;
     padding: 10px;
+    border-radius: 10px;
   }
 
   .DLOH{
