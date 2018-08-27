@@ -216,27 +216,23 @@ Description section
   border: 10px solid #A0B82F;
 }
 
+#homeCarousel {
+  border: 5px dashed white;
+}
+
 #pitch {
-  position: relative;
-  margin-bottom: 8%;
+  margin-top: 5%;
 }
 
 #pitch-words {
-  position: absolute;
-  bottom: -10%;
   padding: 1%;
 }
 
 #deal {
   width: auto;
+  margin-top: 0;
   margin-bottom: 0;
-  max-width: 55%;
-}
-
-#FTC-desc {
-  position: relative;
-  width: 50%;
-  left: 12.5%;
+  min-width: 55%;
 }
 
 #pitch-btn {
@@ -254,6 +250,7 @@ Activity cards
   background-color: #A0B82F;
   color: white;
   margin: 2%;
+  min-height: 300px;
 }
 
 .card-title {

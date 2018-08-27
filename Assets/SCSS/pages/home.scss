@@ -1,30 +1,98 @@
-.carousel {
-  padding: 1em;
+/* --------------------------------
+Jumbotron section
+-------------------------------- */
+.jumbotron {
+  height: 85vh;
+  margin: 0;
+    background: {
+      image: url(../Images/group.jpg);
+      repeat: no-repeat;
+      size: cover;
+      position: 0% 20%;
+    }
+}
+
+#welcome {
+  margin-top: 1%;
+}
+
+#FTC-title {
+  max-width: 100%;
+  margin-bottom: 0;
+  margin-top: 0;
+  border: 10px double white;
+}
+
+.vl {
+  height: 3em;
+  width: 33%;
+  border-left: 10px solid $sign-holders;
+  border-right: 10px solid $sign-holders;
+}
+
+.sub-welcome {
+  width: 40%;
   background-color: $sub-panel-color;
+  padding: 1%;
+  border: 8px double white;
+  color: black;
 }
 
-.carousel-item {
-  max-height: 25em;
-}
-
-.news {
-  margin-bottom: 5%;
-}
-
-.card-header {
+#mini-nav {
+  margin: 0;
+  padding: 2%;
   background-color: $sub-panel-color2;
+  border: 5px dashed white;
+}
+
+/* --------------------------------
+Description section
+-------------------------------- */
+#landing-img {
+  width: 75%;
+  margin-top: 5%;
+  border: 10px solid $sub-panel-color;
+}
+
+#homeCarousel {
+  border: 5px dashed white;
+}
+
+#pitch {
+  margin-top: 5%;
+}
+
+#pitch-words {
+  padding: 1%;
+}
+
+#deal {
+  width: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  min-width: 55%;
+}
+
+#pitch-btn {
+  padding: 1.5% 10%;
+  &:hover {
+    background-color: $btn-hover;
+  }
+}
+
+/* --------------------------------
+Activity cards
+-------------------------------- */
+.activities {
+  padding: 10%;
+  background-color: $sub-panel-color;
   color: white;
+  margin: 2%;
+  min-height: 300px;
 }
 
-.badge-general {
-  background-color: $panel-color;
-}
-
-.badge-deadline {
-  background-color: $salmon;
-}
-
-.vl-header {
-  @extend .vl;
+.card-title {
+  margin: 0;
+  color: black;
 }
 
