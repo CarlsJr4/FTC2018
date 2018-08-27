@@ -427,7 +427,7 @@ ul.calendar {
 
 /* Month header */
 .month {
-  font-family: "ostrich";
+  font-family: "Scope One";
   padding: 15px 25px;
   width: 100%;
   background: #025939;
@@ -492,7 +492,7 @@ li .DL {
   color: white;
 }
 li .OH {
-  background: #F48151;
+  background-color: #F48151;
   color: white;
 }
 li .both {

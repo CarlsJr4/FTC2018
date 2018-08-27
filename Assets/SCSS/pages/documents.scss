@@ -113,7 +113,7 @@ ul.calendar {list-style-type: none;}
 
 /* Month header */
 .month {
-  font-family: "ostrich";
+  font-family: $sub2;
   padding: 15px 25px;
   width: 100%;
   background: $cal-month;
@@ -181,7 +181,7 @@ li {
   }
 
   .OH{
-    background: $office-hour;
+    background-color: $office-hour;
     color: white;
   }
 
