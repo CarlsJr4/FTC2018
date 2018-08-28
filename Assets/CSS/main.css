@@ -332,6 +332,10 @@ Documents
   border: 5px dashed white;
 }
 
+#download-req {
+  background-color: #F48151;
+}
+
 .download-panel {
   background-color: #EAD1A1;
   padding: 3%;
@@ -362,6 +366,7 @@ Documents
 .fa-cart-arrow-down {
   font-size: 20px;
   padding-left: 10px;
+  float: right;
 }
 
 .supplement {

@@ -9,6 +9,10 @@ Documents
   border: 5px dashed white;
 }
 
+#download-req {
+  background-color: $salmon;
+}
+
 .download-panel {
   background-color: $beige;
   padding: 3%;
@@ -39,11 +43,13 @@ Documents
 .fa-cart-arrow-down {
   font-size: 20px;
   padding-left: 10px;
+  float: right;
 }
 
 .supplement {
   margin: 5%;
 }
+
 /* --------------------------------
 Calendar
 -------------------------------- */
