@@ -59,6 +59,14 @@ Panels and Elements
   color: white;
 }
 
+.attach {
+  margin: {
+    top: 0;
+    bottom: 0;
+  }
+}
+
+
 .sign { //For making headers look like signs
   margin-bottom: 0;
 }
@@ -75,7 +83,8 @@ Panels and Elements
 }
 
 .grocery-head {
-  background-color: $light-green;
+  background-image: url('../Images/home-slideshow/crowd.jpg');
+  background-position: 0 55%;
   margin-bottom: 2%;
   border-bottom: 10px solid $panel-color;
   padding: {
@@ -106,7 +115,9 @@ Mobile
   }
 
   .head-panel {
-    max-width: 100%
+    min-width: 95%;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .paragraph-panel {
