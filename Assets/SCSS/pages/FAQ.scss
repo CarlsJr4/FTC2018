@@ -11,3 +11,10 @@
 .fa-caret-right {
   padding-left: 20px;
 }
+
+.FAQ-bg {
+  @extend .download-panel;
+  &:hover {
+    background-color: $beige;
+  }
+}

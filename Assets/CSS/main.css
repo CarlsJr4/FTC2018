@@ -158,6 +158,7 @@ Mobile
     min-width: 95%;
     margin-left: 0;
     margin-right: 0;
+    padding: 3%;
   }
 
   .paragraph-panel {
@@ -291,11 +292,21 @@ Activity cards
 }
 
 #deal {
-  min-width: 100%;
+  max-width: 55%;
   margin-left: 0;
   margin-right: 0;
 }
 
+@media only screen and (max-width: 576px) {
+  #deal {
+    min-width: 100%;
+  }
+
+  .sub-welcome {
+    width: 100%;
+    padding: 5%;
+  }
+}
 .carousel {
   padding: 1em;
   background-color: #A0B82F;
@@ -336,7 +347,7 @@ Documents
   background-color: #F48151;
 }
 
-.download-panel {
+.download-panel, .FAQ-bg {
   background-color: #EAD1A1;
   padding: 3%;
   margin: 3%;
@@ -344,7 +355,7 @@ Documents
   border-radius: 10px;
   border: 3px solid transparent;
 }
-.download-panel:hover {
+.download-panel:hover, .FAQ-bg:hover {
   background-color: white;
   border: 3px solid #EAD1A1;
   color: black;
@@ -373,173 +384,8 @@ Documents
   margin: 5%;
 }
 
-/* --------------------------------
-Calendar
--------------------------------- */
-div .calendars {
-  max-width: 1000px;
-  margin-bottom: 0;
-}
-div .key {
-  font-family: "market";
-  text-align: left;
-  color: black;
-  background-color: #EAD1A1;
-  line-height: 12px;
-  height: 50px;
-  width: 400px;
-  margin-bottom: 20px;
-  padding: 10px;
-  border-radius: 10px;
-}
-div .DLOH {
-  font-family: "rubik";
-  text-align: left;
-  font-size: 12px;
-  padding: 10px 0;
-  line-height: 20px;
-}
-div .keyans {
-  height: 30px;
-  display: inline-block;
-  float: left;
-  padding-top: 10px;
-}
-div .keys {
-  width: 40px;
-  height: 30px;
-  display: inline-block;
-  float: left;
-  margin-right: 10px;
-}
-div .key1 {
-  background: #AFCAE3;
-}
-div .key2 {
-  background: #F48151;
-  margin-left: 20px;
-}
-div .m {
-  margin-bottom: 50px;
-}
-div .October {
-  margin-bottom: 0;
-}
-
-ul.calendar {
-  list-style-type: none;
-}
-
-/* Month header */
-.month {
-  font-family: "Scope One";
-  padding: 15px 25px;
-  width: 100%;
-  background: #025939;
-  text-align: center;
-  line-height: 35px;
-}
-
-/* Month list */
-.month ul {
-  margin: 0;
-  padding: 0;
-}
-
-.month ul li {
-  padding: 0;
-  color: white;
-  font-size: 30px;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-}
-
-/* Weekdays (Sun-Sat) */
-.weekdays {
-  margin: 0;
-  padding: 5px 0;
-  background-color: #A0B82F;
-}
-
-.weekdays li {
-  margin: 0;
-  padding: 0;
-  display: inline-block;
-  width: 13.6%;
-  color: white;
-  text-align: center;
-  margin: 0 -2.5px 0 -2.5px;
-}
-
-/* Days (1-31) */
-.days {
-  padding: 10px 0;
-  background: #EAD1A1;
-  margin: 0;
-}
-.days li {
-  list-style-type: none;
-  display: inline-block;
-  position: relative;
-  z-index: 0;
-  width: 14%;
-  height: 110px;
-  text-align: left;
-  padding: 0 0.4% 0 0.7%;
-  font-size: 14px;
-  margin: 0 -2.5px -2px -2.5px;
-  color: black;
-  border: 1px solid white;
-}
-
-li .DL {
-  background: #AFCAE3;
-  color: white;
-}
-li .OH {
-  background-color: #F48151;
-  color: white;
-}
-li .both {
-  padding: 0;
-}
-
-div.upper {
-  height: 60%;
-  margin: 0;
-  padding: 0 4%;
-  background: #AFCAE3;
-  color: white;
-}
-
-div.lower {
-  height: 40%;
-  margin: 0;
-  padding: 0 4%;
-  background: #F48151;
-  color: white;
-}
-
-li.faded {
-  color: #b3b3b3;
-}
-
-/* Highlight the "current" day */
-.days li .active {
-  padding: 5px;
-  background: #1abc9c;
-  color: white !important;
-}
-
-ul.calendar li p {
-  margin-left: -3px;
-  position: absolute;
-  z-index: 1;
-}
-
-li.Other p {
-  color: black;
-  font-size: 15px;
+iframe {
+  margin: 5% 0 5% 0;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -555,6 +401,35 @@ li.Other p {
 @media only screen and (max-width: 576px) {
   .key {
     max-width: 100%;
+  }
+
+  #DL-OH {
+    width: 100%;
+  }
+
+  .responsiveCal {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+  }
+
+  .responsiveCal iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200%;
+  }
+
+  .download-bg {
+    margin: 0 2% 2% 0%;
+    padding: 8%;
+  }
+
+  .download-panel, .FAQ-bg {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 img.group {
@@ -588,6 +463,10 @@ img.img-circle {
 
 .fa-caret-right {
   padding-left: 20px;
+}
+
+.FAQ-bg:hover {
+  background-color: #EAD1A1;
 }
 
 /*# sourceMappingURL=main.css.map */
