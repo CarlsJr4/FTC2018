@@ -146,6 +146,11 @@ Panels and Elements
   background-size: cover;
 }
 
+#cnh {
+  float: right;
+  position: relative;
+}
+
 /* --------------------------------
 Mobile
 -------------------------------- */
@@ -283,7 +288,7 @@ Activity cards
   background-color: #A0B82F;
   color: white;
   margin: 2%;
-  min-height: 275px;
+  min-height: 300px;
 }
 
 .card-title {
@@ -419,6 +424,7 @@ iframe {
     left: 0;
     width: 100%;
     height: 200%;
+    border: 5px solid #A0B82F;
   }
 
   .download-bg {
@@ -467,6 +473,10 @@ img.img-circle {
 
 .FAQ-bg:hover {
   background-color: #EAD1A1;
+}
+
+.FAQ-bg + p {
+  margin: 3%;
 }
 
 /*# sourceMappingURL=main.css.map */
