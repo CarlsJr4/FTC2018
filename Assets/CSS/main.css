@@ -146,6 +146,11 @@ Panels and Elements
   background-size: cover;
 }
 
+#cnh {
+  float: right;
+  position: relative;
+}
+
 /* --------------------------------
 Mobile
 -------------------------------- */
