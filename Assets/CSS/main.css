@@ -469,4 +469,8 @@ img.img-circle {
   background-color: #EAD1A1;
 }
 
+.FAQ-bg + p {
+  margin: 3%;
+}
+
 /*# sourceMappingURL=main.css.map */
