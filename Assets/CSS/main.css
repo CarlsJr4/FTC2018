@@ -52,7 +52,7 @@ a:hover {
 Main
 -------------------------------- */
 html {
-  margin-top: 3%;
+  margin-top: 4%;
 }
 
 body {
@@ -180,6 +180,14 @@ Mobile
 }
 .custom-nav {
   background-color: #025939 !important;
+  background-image: url(../Images/white-stripes.png);
+  background-size: contain;
+  background-size: 100% 10%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  border-width: 0;
+  border-radius: 0;
+  margin: 0;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -197,6 +205,15 @@ Mobile
   color: white;
 }
 
+@media only screen and (max-width: 576px) {
+  .custom-nav {
+    background-image: none;
+  }
+
+  #cnh {
+    display: none;
+  }
+}
 /* --------------------------------
 Pages
 -------------------------------- */
@@ -213,7 +230,7 @@ Jumbotron section
 }
 
 #welcome {
-  margin-top: 1%;
+  margin-top: 3%;
 }
 
 #FTC-title {
