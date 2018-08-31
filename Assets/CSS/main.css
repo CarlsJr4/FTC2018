@@ -205,6 +205,15 @@ Mobile
   color: white;
 }
 
+.navbar-nav .dropdown-menu {
+  background-color: #A0B82F;
+  font-family: "Scope One";
+}
+
+.dropdown-item:hover {
+  background-color: #EAD1A1;
+}
+
 @media only screen and (max-width: 576px) {
   .custom-nav {
     background-image: none;
