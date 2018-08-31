@@ -206,7 +206,7 @@ Mobile
 }
 
 .navbar-nav .dropdown-menu {
-  background-color: #A0B82F;
+  background-color: #F48151;
   font-family: "Scope One";
 }
 
@@ -314,7 +314,7 @@ Activity cards
   background-color: #A0B82F;
   color: white;
   margin: 2%;
-  min-height: 300px;
+  min-height: 330px;
 }
 
 .card-title {
