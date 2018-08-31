@@ -80,11 +80,17 @@ Description section
   }
 }
 
+.card-title + hr {
+  margin: {
+    left: 0;
+    right: 0;
+  }
+}
+
 /* --------------------------------
 Activity cards
 -------------------------------- */
 .activities {
-  padding: 10%;
   background-color: $sub-panel-color;
   color: white;
   margin: 2%;

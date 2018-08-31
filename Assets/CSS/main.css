@@ -205,6 +205,15 @@ Mobile
   color: white;
 }
 
+.navbar-nav .dropdown-menu {
+  background-color: #F48151;
+  font-family: "Scope One";
+}
+
+.dropdown-item:hover {
+  background-color: #EAD1A1;
+}
+
 @media only screen and (max-width: 576px) {
   .custom-nav {
     background-image: none;
@@ -297,11 +306,15 @@ Description section
   background-color: #FECC4C;
 }
 
+.card-title + hr {
+  margin-left: 0;
+  margin-right: 0;
+}
+
 /* --------------------------------
 Activity cards
 -------------------------------- */
 .activities {
-  padding: 10%;
   background-color: #A0B82F;
   color: white;
   margin: 2%;
@@ -376,10 +389,18 @@ Documents
   align-content: left;
   border-radius: 10px;
   border: 3px solid transparent;
+  /*&:hover {
+    background-color: white;
+    border: 3px solid $beige;
+    color: $light-green;
+  } */
 }
-.download-panel:hover, .FAQ-bg:hover {
-  background-color: white;
-  border: 3px solid #EAD1A1;
+
+.download-panel > a, .FAQ-bg > a {
+  color: black;
+  text-decoration: underline;
+}
+.download-panel > a:hover, .FAQ-bg > a:hover {
   color: #A0B82F;
 }
 

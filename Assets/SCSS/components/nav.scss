@@ -25,6 +25,17 @@
   color: white;
 }
 
+.navbar-nav .dropdown-menu {
+  background-color: $salmon;
+  font-family: $sub2;
+}
+
+.dropdown-item {
+  &:hover {
+    background-color: $beige;
+  }
+}
+
 @media only screen and (max-width: 576px) {
   .custom-nav{
     background-image: none;
@@ -34,3 +45,4 @@
     display: none;
   }
 }
+
