@@ -24,3 +24,13 @@
 .fa-cart-plus {
   color: white;
 }
+
+@media only screen and (max-width: 576px) {
+  .custom-nav{
+    background-image: none;
+  }
+
+  #cnh {
+    display: none;
+  }
+}
