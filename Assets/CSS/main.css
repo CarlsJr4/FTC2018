@@ -180,6 +180,15 @@ Mobile
 }
 .custom-nav {
   background-color: #025939 !important;
+  background-image: url(../Images/white-stripes.png);
+  background-size: contain;
+  background-size: 100% 10%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  border-width: 0;
+  border-radius: 0;
+  height: 70px;
+  margin: 0;
 }
 
 .navbar-light .navbar-nav .nav-link {
