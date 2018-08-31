@@ -380,7 +380,7 @@ Documents
 .download-panel:hover, .FAQ-bg:hover {
   background-color: white;
   border: 3px solid #EAD1A1;
-  color: black;
+  color: #A0B82F;
 }
 
 .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
@@ -408,6 +408,14 @@ Documents
 
 iframe {
   margin: 5% 0 5% 0;
+}
+
+a:not([href]):not([tabindex]) {
+  color: inherit;
+  text-decoration: underline;
+}
+a:not([href]):not([tabindex]):hover {
+  text-decoration: underline;
 }
 
 @media only screen and (max-width: 1000px) {
