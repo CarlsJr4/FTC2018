@@ -16,9 +16,11 @@
   @extend .download-panel;
   &:hover {
     background-color: $beige;
+    color: black;
   }
 }
 
 .FAQ-bg + p {
   margin: 3%;
+  color: white;
 }

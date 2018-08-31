@@ -23,7 +23,7 @@ Documents
   &:hover {
     background-color: white;
     border: 3px solid $beige;
-    color: black;
+    color: $light-green;
   }
 }
 
@@ -52,6 +52,14 @@ Documents
 
 iframe {
   margin: 5% 0 5% 0;
+}
+
+a:not([href]):not([tabindex]) {
+  color: inherit;
+  text-decoration: underline;
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 @media only screen and (max-width: 1000px) {
