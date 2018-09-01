@@ -206,7 +206,8 @@ Mobile
 }
 
 .navbar-nav .dropdown-menu {
-  background-color: #F48151;
+  background-color: #A0B82F;
+  border: 2px solid white;
   font-family: "Scope One";
 }
 
