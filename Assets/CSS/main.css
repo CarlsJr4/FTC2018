@@ -232,7 +232,7 @@ Jumbotron section
 .jumbotron {
   height: 85vh;
   margin: 0;
-  background-color: #F48151;
+  background-image: linear-gradient(#AFCAE3, #6f9fcd);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0% 20%;

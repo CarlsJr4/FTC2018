@@ -6,7 +6,8 @@ Jumbotron section
   margin: 0;
     background: {
       //image: url(../Images/group.jpg);
-      color: $salmon;
+      image: linear-gradient($sky-blue, darken($sky-blue, 17%));
+      //color: $sky-blue;
       repeat: no-repeat;
       size: cover;
       position: 0% 20%;
