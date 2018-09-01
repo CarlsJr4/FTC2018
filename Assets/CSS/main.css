@@ -244,6 +244,8 @@ Jumbotron section
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0% 20%;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 #welcome {
@@ -363,12 +365,12 @@ Activity cards
 
   #video {
     position: relative;
-    top: 23%;
+    top: 35%;
     height: auto;
   }
 
   #mini-nav, .download-bg {
-    margin-top: 2.8%;
+    margin-top: 0;
     padding: 10%;
   }
 

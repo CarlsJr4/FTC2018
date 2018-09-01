@@ -12,6 +12,10 @@ Jumbotron section
       size: cover;
       position: 0% 20%;
     }
+  padding: {
+    left: 0;
+    right: 0;
+  }
 }
 
 #welcome {
@@ -133,12 +137,12 @@ Activity cards
 
   #video {
     position: relative;
-    top: 23%;
+    top: 35%;
     height: auto;
   }
 
   #mini-nav {
-    margin-top: 2.8%;
+    margin-top: 0;
     padding: 10%;
   }
 
