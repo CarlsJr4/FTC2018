@@ -342,9 +342,31 @@ Activity cards
     min-width: 100%;
   }
 
+  .jumbotron {
+    height: 39vh;
+    padding: 0;
+    background-image: linear-gradient(#AFCAE3, #5c93c6);
+  }
+
   .sub-welcome {
     width: 100%;
     padding: 5%;
+  }
+
+  #video {
+    position: relative;
+    top: 23%;
+    height: auto;
+  }
+
+  #mini-nav, .download-bg {
+    margin-top: 2.8%;
+    padding: 10%;
+  }
+
+  .home-btn {
+    margin-top: 5%;
+    margin-bottom: 5%;
   }
 }
 .carousel {
