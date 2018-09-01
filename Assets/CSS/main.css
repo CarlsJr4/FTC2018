@@ -214,6 +214,10 @@ Mobile
   background-color: #EAD1A1;
 }
 
+#mobileLogo {
+  display: none;
+}
+
 @media only screen and (max-width: 576px) {
   .custom-nav {
     background-image: none;
@@ -221,6 +225,10 @@ Mobile
 
   #cnh {
     display: none;
+  }
+
+  #mobileLogo {
+    display: block;
   }
 }
 /* --------------------------------
@@ -232,7 +240,7 @@ Jumbotron section
 .jumbotron {
   height: 85vh;
   margin: 0;
-  background-image: linear-gradient(#AFCAE3, #6f9fcd);
+  background-image: linear-gradient(#AFCAE3, #729EC7);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0% 20%;
