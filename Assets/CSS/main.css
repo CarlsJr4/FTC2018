@@ -232,7 +232,7 @@ Jumbotron section
 .jumbotron {
   height: 85vh;
   margin: 0;
-  background-image: url(../Images/group.jpg);
+  background-color: #F48151;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0% 20%;
@@ -262,6 +262,11 @@ Jumbotron section
   padding: 1%;
   border: 8px double white;
   color: black;
+}
+
+#video {
+  width: 100%;
+  height: 75.6vh;
 }
 
 #mini-nav, .download-bg {
