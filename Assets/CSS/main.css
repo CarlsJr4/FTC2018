@@ -48,6 +48,15 @@ a:hover {
   text-decoration: none;
 }
 
+.hyperlink {
+  text-decoration: underline;
+  color: #025939;
+}
+.hyperlink:hover {
+  text-decoration: underline;
+  color: #AFCAE3;
+}
+
 /* --------------------------------
 Main
 -------------------------------- */
@@ -569,6 +578,16 @@ img.img-circle {
 .FAQ-bg + p {
   margin: 3%;
   color: white;
+}
+
+@media only screen and (max-width: 576px) {
+  #gen-info {
+    margin-top: 0;
+  }
+
+  .FAQ-bg {
+    margin-top: 10%;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

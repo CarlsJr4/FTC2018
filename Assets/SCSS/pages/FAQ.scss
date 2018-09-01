@@ -24,3 +24,13 @@
   margin: 3%;
   color: white;
 }
+
+@media only screen and (max-width: 576px) {
+  #gen-info {
+    margin-top: 0;
+  }
+
+  .FAQ-bg {
+    margin-top: 10%;
+  }
+}
