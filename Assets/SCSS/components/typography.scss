@@ -30,3 +30,12 @@ a {
     text-decoration: none;
   }
 }
+
+.hyperlink {
+  text-decoration: underline;
+  color: $forest-green;
+  &:hover {
+    text-decoration: underline;
+    color: $sky-blue;
+  }
+}

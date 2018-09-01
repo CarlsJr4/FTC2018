@@ -26,7 +26,8 @@
 }
 
 .navbar-nav .dropdown-menu {
-  background-color: $salmon;
+  background-color: $light-green;
+  border: 2px solid white;
   font-family: $sub2;
 }
 
@@ -38,6 +39,12 @@
 
 #mobileLogo {
   display: none;
+}
+
+#cnh {
+  display: block;
+  float: right;
+  position: relative;
 }
 
 @media only screen and (max-width: 576px) {
