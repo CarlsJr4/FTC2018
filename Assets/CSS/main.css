@@ -404,6 +404,10 @@ Activity cards
   max-height: 25em;
 }
 
+.carousel-graphic {
+  height: 100%;
+}
+
 .news {
   margin-bottom: 5%;
 }
