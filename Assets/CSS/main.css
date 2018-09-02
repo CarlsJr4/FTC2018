@@ -524,10 +524,6 @@ Calendar
   color: white;
 }
 
-.both {
-  padding: 0;
-}
-
 ul.calendar {
   list-style-type: none;
 }
@@ -587,7 +583,7 @@ ul.calendar {
   z-index: 0;
   line-height: 25px;
   width: 14%;
-  height: 150px;
+  height: 200px;
   text-align: left;
   padding: 0 0.4% 0 0.7%;
   font-size: 14px;
@@ -599,7 +595,6 @@ ul.calendar {
 div.upperDL, div.upperOH {
   height: 50%;
   background: #F48151;
-  color: white;
   padding-left: 5%;
 }
 
@@ -610,12 +605,22 @@ div.upperOH {
 div.lowerOH, div.lowerDL {
   height: 50%;
   background: #AFCAE3;
-  color: white;
   padding-left: 5%;
 }
 
 div.lowerDL {
   background: #F48151;
+}
+
+div.trioOH, div.trioDL {
+  height: 33.3%;
+  background: #AFCAE3;
+  padding-left: 5%;
+}
+
+div.trioDL {
+  background: #F48151;
+  padding-left: 5%;
 }
 
 li.faded {
