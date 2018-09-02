@@ -90,14 +90,25 @@ Calendar
   }
 }
 
-div .calendars {
-  max-width: 1000px;
-  margin-bottom: 0;
+.DL {
+  background: #AFCAE3;
+  color: white;
 }
+
+.OH {
+  background-color: #F48151;
+  color: white;
+}
+
+.days li .both {
+  padding: 0;
+}
+
 
 ul.calendar {
   list-style-type: none;
 }
+
 /* Month header */
 .month {
   font-family: "Scope One";
@@ -112,6 +123,7 @@ ul.calendar {
   margin: 0;
   padding: 0;
 }
+
 .month ul li {
   padding: 0;
   color: white;
@@ -119,6 +131,7 @@ ul.calendar {
   text-transform: uppercase;
   letter-spacing: 3px;
 }
+
 /* Weekdays (Sun-Sat) */
 .weekdays {
   margin: 0;
@@ -158,32 +171,14 @@ ul.calendar {
   border: 1px solid white;
 }
 
- .DL {
-  background: #AFCAE3;
-  color: white;
-}
-
- .OH {
-  background-color: #F48151;
-  color: white;
-}
-
-li .both {
-  padding: 0;
-}
-
 div.upper {
   height: 60%;
-  margin: 0;
-  padding: 0 4%;
   background: #AFCAE3;
   color: white;
 }
 
 div.lower {
   height: 40%;
-  margin: 0;
-  padding: 0 4%;
   background: #F48151;
   color: white;
 }

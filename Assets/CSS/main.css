@@ -256,7 +256,7 @@ Jumbotron section
 .jumbotron {
   height: 85vh;
   margin: 0;
-  background-image: linear-gradient(#AFCAE3, #729EC7);
+  background-color: #F48151;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0% 20%;
@@ -371,7 +371,7 @@ Activity cards
   .jumbotron {
     height: 39vh;
     padding: 0;
-    background-image: linear-gradient(#AFCAE3, #5c93c6);
+    background-color: #F48151;
   }
 
   .sub-welcome {
@@ -514,9 +514,18 @@ Calendar
   margin-bottom: 5%;
 }
 
-div .calendars {
-  max-width: 1000px;
-  margin-bottom: 0;
+.DL {
+  background: #AFCAE3;
+  color: white;
+}
+
+.OH {
+  background-color: #F48151;
+  color: white;
+}
+
+.days li .both {
+  padding: 0;
 }
 
 ul.calendar {
@@ -586,32 +595,14 @@ ul.calendar {
   border: 1px solid white;
 }
 
-.DL {
-  background: #AFCAE3;
-  color: white;
-}
-
-.OH {
-  background-color: #F48151;
-  color: white;
-}
-
-li .both {
-  padding: 0;
-}
-
 div.upper {
   height: 60%;
-  margin: 0;
-  padding: 0 4%;
   background: #AFCAE3;
   color: white;
 }
 
 div.lower {
   height: 40%;
-  margin: 0;
-  padding: 0 4%;
   background: #F48151;
   color: white;
 }
