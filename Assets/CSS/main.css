@@ -256,7 +256,7 @@ Jumbotron section
 .jumbotron {
   height: 85vh;
   margin: 0;
-  background-color: #F48151;
+  background-image: linear-gradient(#F48151, #D35E2E);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0% 20%;
@@ -371,7 +371,7 @@ Activity cards
   .jumbotron {
     height: 39vh;
     padding: 0;
-    background-color: #F48151;
+    image: linear-gradient(#F48151, #D35E2E);
   }
 
   .sub-welcome {
