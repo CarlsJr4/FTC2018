@@ -401,10 +401,14 @@ Activity cards
 }
 
 .carousel-item {
+  max-height: 25em;
+}
+
+.carousel-item-news {
   max-height: 40em;
 }
 
-.carousel-item-next, .carousel-item-prev, .carousel-item.active {
+.carousel-item-next-news, .carousel-item-prev-news, .carousel-item-news.active {
   width: 35%;
 }
 
