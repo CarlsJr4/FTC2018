@@ -100,7 +100,7 @@ Calendar
   color: white;
 }
 
-.days li .both {
+.both {
   padding: 0;
 }
 
@@ -172,16 +172,28 @@ ul.calendar {
   border: 1px solid white;
 }
 
-div.upper {
-  height: 60%;
-  background: #AFCAE3;
+div.upperDL {
+  height: 50%;
+  background: $salmon;
   color: white;
+  padding-left: 5%;
 }
 
-div.lower {
-  height: 40%;
-  background: #F48151;
+div.upperOH {
+  @extend .upperDL;
+  background: $sky-blue;
+}
+
+div.lowerOH {
+  height: 50%;
+  background: $sky-blue;
   color: white;
+  padding-left: 5%;
+}
+
+div.lowerDL {
+  @extend .lowerOH;
+  background: $salmon;
 }
 
 li.faded {

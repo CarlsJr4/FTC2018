@@ -524,7 +524,7 @@ Calendar
   color: white;
 }
 
-.days li .both {
+.both {
   padding: 0;
 }
 
@@ -596,16 +596,26 @@ ul.calendar {
   border: 1px solid white;
 }
 
-div.upper {
-  height: 60%;
-  background: #AFCAE3;
-  color: white;
-}
-
-div.lower {
-  height: 40%;
+div.upperDL, div.upperOH {
+  height: 50%;
   background: #F48151;
   color: white;
+  padding-left: 5%;
+}
+
+div.upperOH {
+  background: #AFCAE3;
+}
+
+div.lowerOH, div.lowerDL {
+  height: 50%;
+  background: #AFCAE3;
+  color: white;
+  padding-left: 5%;
+}
+
+div.lowerDL {
+  background: #F48151;
 }
 
 li.faded {
