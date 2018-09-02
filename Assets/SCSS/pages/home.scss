@@ -6,7 +6,7 @@ Jumbotron section
   margin: 0;
     background: {
       //image: url(../Images/group.jpg);
-      image: linear-gradient($sky-blue, #729EC7);
+      image: linear-gradient($salmon, #D35E2E);
       //color: $sky-blue;
       repeat: no-repeat;
       size: cover;
@@ -127,7 +127,7 @@ Activity cards
   .jumbotron {
     height: 39vh;
     padding: 0;
-    background-image: linear-gradient($sky-blue, darken($sky-blue, 22%));
+    image: linear-gradient($salmon, #D35E2E);
   }
 
   .sub-welcome {

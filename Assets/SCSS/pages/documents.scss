@@ -70,6 +70,159 @@ a:not([href]):not([tabindex]) {
   }
 }
 
+/* --------------------------------
+Calendar
+-------------------------------- */
+#deadlineKey {
+  background-color: $salmon;
+  padding: 1%
+}
+
+#officeHourKey {
+  background-color: $sky-blue;
+  padding: 1%;
+}
+
+.m {
+  margin: {
+    top: 5%;
+    bottom: 5%;
+  }
+}
+
+.DL {
+  background: $salmon;
+  color: white;
+}
+
+.OH {
+  background-color: $sky-blue;
+  color: white;
+}
+
+ul.calendar {
+  list-style-type: none;
+}
+
+/* Month header */
+.month {
+  font-family: "Scope One";
+  padding: 15px 25px;
+  width: 100%;
+  background: #025939;
+  text-align: center;
+  line-height: 35px;
+}
+/* Month list */
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  padding: 0;
+  color: white;
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+/* Weekdays (Sun-Sat) */
+.weekdays {
+  margin: 0;
+  padding: 5px 0;
+  background-color: #A0B82F;
+}
+
+.weekdays li {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  width: 13.6%;
+  color: white;
+  text-align: center;
+  margin: 0 -2.5px 0 -2.5px;
+}
+
+/* Days (1-31) */
+.days {
+  padding: 10px 0;
+  background: #EAD1A1;
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  position: relative;
+  z-index: 0;
+  line-height: 25px;
+  width: 14%;
+  height: 200px;
+  text-align: left;
+  padding: 0 0.4% 0 0.7%;
+  font-size: 14px;
+  margin: 0 -2.5px -2px -2.5px;
+  color: black;
+  border: 1px solid white;
+}
+
+div.upperDL {
+  height: 50%;
+  background: $salmon;
+  padding-left: 5%;
+}
+
+div.upperOH {
+  @extend .upperDL;
+  background: $sky-blue;
+}
+
+div.lowerOH {
+  height: 50%;
+  background: $sky-blue;
+  padding-left: 5%;
+}
+
+div.lowerDL {
+  @extend .lowerOH;
+  background: $salmon;
+}
+
+div.trioOH {
+  height:33.3%;
+  background: $sky-blue;
+  padding-left: 5%;
+}
+
+div.trioDL {
+  @extend .trioOH;
+  background: $salmon;
+  padding-left: 5%;
+}
+
+li.faded {
+  color: #b3b3b3;
+}
+
+/* Highlight the "current" day */
+.days li .active {
+  padding: 5px;
+  background: #1abc9c;
+  color: white !important;
+}
+
+ul.calendar li p {
+  margin-left: -3px;
+  position: absolute;
+  z-index: 1;
+}
+
+li.Other p {
+  color: black;
+  font-size: 15px;
+}
+
 @media only screen and (max-width: 1000px) {
   li p{
     font-size: 12px;
@@ -91,7 +244,7 @@ a:not([href]):not([tabindex]) {
     width: 100%;
   }
 
-  .responsiveCal {
+  /*.responsiveCal {
     position: relative;
     padding-bottom: 75%;
     height: 0;
@@ -104,7 +257,7 @@ a:not([href]):not([tabindex]) {
     width: 100%;
     height: 200%;
     border: 5px solid $light-green;
-  }
+  } */
 
   .download-bg {
     margin: 0 2% 2% 0%;
