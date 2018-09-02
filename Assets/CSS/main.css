@@ -509,61 +509,13 @@ Calendar
   padding: 1%;
 }
 
+.m {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
 div .calendars {
   max-width: 1000px;
-  margin-bottom: 0;
-}
-
-div .key {
-  font-family: "market";
-  text-align: left;
-  color: black;
-  background-color: #EAD1A1;
-  line-height: 12px;
-  height: 50px;
-  width: 400px;
-  margin-bottom: 20px;
-  padding: 10px;
-  border-radius: 10px;
-}
-
-div .DLOH {
-  font-family: "rubik";
-  text-align: left;
-  font-size: 12px;
-  padding: 10px 0;
-  line-height: 20px;
-}
-
-div .keyans {
-  height: 30px;
-  display: inline-block;
-  float: left;
-  padding-top: 10px;
-}
-
-div .keys {
-  width: 40px;
-  height: 30px;
-  display: inline-block;
-  float: left;
-  margin-right: 10px;
-}
-
-div .key1 {
-  background: #AFCAE3;
-}
-
-div .key2 {
-  background: #F48151;
-  margin-left: 20px;
-}
-
-div .m {
-  margin-bottom: 50px;
-}
-
-div .October {
   margin-bottom: 0;
 }
 
@@ -634,12 +586,12 @@ ul.calendar {
   border: 1px solid white;
 }
 
-li .DL {
+.DL {
   background: #AFCAE3;
   color: white;
 }
 
-li .OH {
+.OH {
   background-color: #F48151;
   color: white;
 }
@@ -705,21 +657,20 @@ li.Other p {
     width: 100%;
   }
 
-  .responsiveCal {
-    position: relative;
-    padding-bottom: 75%;
-    height: 0;
-  }
-
-  .responsiveCal iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 200%;
-    border: 5px solid #A0B82F;
-  }
-
+  /*.responsiveCal {
+      position: relative;
+      padding-bottom: 75%;
+      height: 0;
+    }
+  
+    .responsiveCal iframe {
+      position: absolute;
+      top:0;
+      left: 0;
+      width: 100%;
+      height: 200%;
+      border: 5px solid $light-green;
+    } */
   .download-bg {
     margin: 0 2% 2% 0%;
     padding: 8%;
