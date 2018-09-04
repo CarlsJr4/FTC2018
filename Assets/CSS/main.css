@@ -11,6 +11,9 @@ Colors
 Applied colors
 -------------------------------- */
 /* Quickly experiment with website colors here */
+/* --------------------------------
+Imported fonts
+-------------------------------- */
 @import url("https://fonts.googleapis.com/css?family=Rubik|Scope+One");
 @font-face {
   font-family: "milkshake";
@@ -24,6 +27,9 @@ Applied colors
   font-family: "market";
   src: url(../Fonts/uptown-market.ttf) format("truetype");
 }
+/* --------------------------------
+Typography settings
+-------------------------------- */
 h1 {
   font-family: "milkshake";
   color: white;
@@ -48,6 +54,9 @@ a:hover {
   text-decoration: none;
 }
 
+/* --------------------------------
+Custom typography
+-------------------------------- */
 .hyperlink {
   text-decoration: underline;
   color: #025939;
@@ -120,10 +129,6 @@ Panels and Elements
   margin-bottom: 0;
 }
 
-.sign {
-  margin-bottom: 0;
-}
-
 .paragraph-panel {
   color: white;
   background-color: #A0B82F;
@@ -184,6 +189,9 @@ Mobile
     padding: 10%;
   }
 }
+/* --------------------------------
+Navbar
+-------------------------------- */
 .custom-nav {
   background-color: #025939 !important;
   background-image: url(../Images/white-stripes.png);
@@ -193,28 +201,25 @@ Mobile
   background-position: bottom;
   border-width: 0;
   border-radius: 0;
-  margin: 0;
 }
 
 .navbar-light .navbar-nav .nav-link {
   color: white;
   font-family: "Scope One";
 }
-
-.navbar-light .navbar-brand {
-  color: white;
-  font-family: "Scope One";
+.navbar-light .navbar-nav .nav-link:hover {
   font-weight: bold;
-}
-
-.fa-cart-plus {
-  color: white;
+  color: #FECC4C;
 }
 
 .navbar-nav .dropdown-menu {
   background-color: #A0B82F;
   border: 2px solid white;
   font-family: "Scope One";
+}
+.navbar-nav .dropdown-menu:hover {
+  font-weight: bold;
+  color: #FECC4C;
 }
 
 .dropdown-item:hover {
@@ -231,6 +236,9 @@ Mobile
   position: relative;
 }
 
+/* --------------------------------
+Responsive
+-------------------------------- */
 @media only screen and (max-width: 576px) {
   .custom-nav {
     background-image: none;

@@ -1,9 +1,14 @@
-//Typography
+/* --------------------------------
+Imported fonts
+-------------------------------- */
 @import url('https://fonts.googleapis.com/css?family=Rubik|Scope+One');
 @font-face { font-family: 'milkshake'; src: url(../Fonts/Milkshake.ttf) format('truetype');}
 @font-face { font-family: 'ostrich'; src: url(../Fonts/ostrich-regular.ttf) format('truetype'); }
 @font-face { font-family: 'market'; src: url(../Fonts/uptown-market.ttf) format('truetype'); }
 
+/* --------------------------------
+Typography settings
+-------------------------------- */
 h1 {
   font-family: $primary1;
   color: white;
@@ -22,8 +27,6 @@ p, a, h5, button {
   font-family: $body;
 }
 
-button {}
-
 a {
   color: white;
   &:hover {
@@ -31,7 +34,10 @@ a {
   }
 }
 
-.hyperlink {
+/* --------------------------------
+Custom typography
+-------------------------------- */
+.hyperlink { //Add this to all hyperlinks on the website
   text-decoration: underline;
   color: $forest-green;
   &:hover {

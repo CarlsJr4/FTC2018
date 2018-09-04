@@ -16,7 +16,6 @@ body {
   }
 }
 
-
 /* --------------------------------
 Panels and Elements
 -------------------------------- */
@@ -50,7 +49,7 @@ Panels and Elements
 
 .head-panel {
   background-color: $panel-color;
-  clip-path: polygon(100% 0, 95% 50%, 100% 100%, 0% 100%, 5% 50%, 0% 0%); //ribbon shape
+  clip-path: polygon(100% 0, 95% 50%, 100% 100%, 0% 100%, 5% 50%, 0% 0%); //Ribbon shape for headers
   border: 5px double white;
   width: auto;
   max-width: 40%;
@@ -59,19 +58,14 @@ Panels and Elements
   color: white;
 }
 
-.attach {
+.attach { //Removes margin from headers to make "sign holders" look like they're holding up the headers
   margin: {
     top: 0;
     bottom: 0;
   }
 }
 
-
-.sign { //For making headers look like signs
-  margin-bottom: 0;
-}
-
-.paragraph-panel {
+.paragraph-panel { //Surrounds paragraphs with a green background and dashed border
   color: white;
   background-color: $sub-panel-color;
   padding: 2%;
@@ -82,7 +76,7 @@ Panels and Elements
   border: 3px dashed white;
 }
 
-.grocery-head {
+.grocery-head { //Removed by request
   //background-image: url('../Images/home-slideshow/crowd.jpg');
   //background-position: 0 55%;
   margin-bottom: 2%;
