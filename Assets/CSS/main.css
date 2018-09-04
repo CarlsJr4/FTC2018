@@ -11,6 +11,9 @@ Colors
 Applied colors
 -------------------------------- */
 /* Quickly experiment with website colors here */
+/* --------------------------------
+Imported fonts
+-------------------------------- */
 @import url("https://fonts.googleapis.com/css?family=Rubik|Scope+One");
 @font-face {
   font-family: "milkshake";
@@ -24,6 +27,9 @@ Applied colors
   font-family: "market";
   src: url(../Fonts/uptown-market.ttf) format("truetype");
 }
+/* --------------------------------
+Typography settings
+-------------------------------- */
 h1 {
   font-family: "milkshake";
   color: white;
@@ -48,6 +54,9 @@ a:hover {
   text-decoration: none;
 }
 
+/* --------------------------------
+Custom typography
+-------------------------------- */
 .hyperlink {
   text-decoration: underline;
   color: #025939;
@@ -120,10 +129,6 @@ Panels and Elements
   margin-bottom: 0;
 }
 
-.sign {
-  margin-bottom: 0;
-}
-
 .paragraph-panel {
   color: white;
   background-color: #A0B82F;
@@ -184,6 +189,9 @@ Mobile
     padding: 10%;
   }
 }
+/* --------------------------------
+Navbar
+-------------------------------- */
 .custom-nav {
   background-color: #025939 !important;
   background-image: url(../Images/white-stripes.png);
@@ -193,28 +201,25 @@ Mobile
   background-position: bottom;
   border-width: 0;
   border-radius: 0;
-  margin: 0;
 }
 
 .navbar-light .navbar-nav .nav-link {
   color: white;
   font-family: "Scope One";
 }
-
-.navbar-light .navbar-brand {
-  color: white;
-  font-family: "Scope One";
+.navbar-light .navbar-nav .nav-link:hover {
   font-weight: bold;
-}
-
-.fa-cart-plus {
-  color: white;
+  color: #FECC4C;
 }
 
 .navbar-nav .dropdown-menu {
   background-color: #A0B82F;
   border: 2px solid white;
   font-family: "Scope One";
+}
+.navbar-nav .dropdown-menu:hover {
+  font-weight: bold;
+  color: #FECC4C;
 }
 
 .dropdown-item:hover {
@@ -231,6 +236,9 @@ Mobile
   position: relative;
 }
 
+/* --------------------------------
+Responsive
+-------------------------------- */
 @media only screen and (max-width: 576px) {
   .custom-nav {
     background-image: none;
@@ -261,18 +269,22 @@ Jumbotron section
   padding-right: 0;
 }
 
-#welcome {
+#video {
+  width: 100%;
+  height: 75.6vh;
+}
+
+/*#welcome { //This is the backup jumbotron content incase FTC committee decides to remove the video from the website
   margin-top: 3%;
 }
 
-#FTC-title {
+ #FTC-title {
   max-width: 100%;
   margin-bottom: 0;
   margin-top: 0;
   border: 10px double white;
-}
-
-.vl, .vl-header {
+} */
+.vl {
   height: 3em;
   width: 33%;
   border-left: 10px solid #8D6542;
@@ -285,11 +297,6 @@ Jumbotron section
   padding: 1%;
   border: 8px double white;
   color: black;
-}
-
-#video {
-  width: 100%;
-  height: 75.6vh;
 }
 
 #mini-nav, .download-bg {
@@ -322,8 +329,6 @@ Description section
 
 #deal {
   width: auto;
-  margin-top: 0;
-  margin-bottom: 0;
   min-width: 55%;
 }
 
@@ -346,7 +351,7 @@ Activity cards
   background-color: #A0B82F;
   color: white;
   margin: 2%;
-  min-height: 300px;
+  min-height: 450px;
 }
 
 .card-title {
@@ -360,6 +365,9 @@ Activity cards
   margin-right: 0;
 }
 
+/* --------------------------------
+Responsive
+-------------------------------- */
 @media only screen and (max-width: 576px) {
   #deal {
     min-width: 100%;
@@ -392,6 +400,9 @@ Activity cards
     margin-bottom: 5%;
   }
 }
+/* --------------------------------
+News carousels
+-------------------------------- */
 .carousel {
   padding: 1em;
   background-color: #A0B82F;
@@ -414,6 +425,9 @@ Activity cards
   margin-left: 90%;
 }
 
+/* --------------------------------
+News panels
+-------------------------------- */
 .news {
   margin-bottom: 5%;
 }
@@ -423,6 +437,9 @@ Activity cards
   color: white;
 }
 
+/* --------------------------------
+Announcements badges
+-------------------------------- */
 .badge-general {
   background-color: #025939;
 }
@@ -432,7 +449,7 @@ Activity cards
 }
 
 /* --------------------------------
-Documents
+Documents panels
 -------------------------------- */
 .download-bg {
   margin: 0 2% 2% 2%;
@@ -651,6 +668,9 @@ li.Other p {
   font-size: 15px;
 }
 
+/* --------------------------------
+Responsive
+-------------------------------- */
 @media only screen and (max-width: 1000px) {
   li p {
     font-size: 12px;
@@ -695,6 +715,9 @@ li.Other p {
     margin-right: 0;
   }
 }
+/* --------------------------------
+Committee pictures
+-------------------------------- */
 img.group {
   width: 100%;
 }
@@ -704,30 +727,22 @@ div.profile {
   padding: 30px 0;
 }
 
-img.img-circle {
+img.img-square {
   margin: 0 auto;
   width: 60%;
 }
 
+/* --------------------------------
+Responsive
+-------------------------------- */
 @media only screen and (max-width: 576px) {
   #committeeImg {
     max-width: 100%;
   }
 }
-.rotate {
-  transform: rotate(90deg);
-  transition: 0.3s;
-}
-
-.rotate-reset {
-  transform: rotate(0deg);
-  transition: 0.3s;
-}
-
-.fa-caret-right {
-  padding-left: 20px;
-}
-
+/* --------------------------------
+FAQ panels
+-------------------------------- */
 .FAQ-bg:hover {
   background-color: #EAD1A1;
   color: black;
@@ -738,6 +753,9 @@ img.img-circle {
   color: white;
 }
 
+/* --------------------------------
+Responsive
+-------------------------------- */
 @media only screen and (max-width: 576px) {
   #gen-info {
     margin-top: 0;

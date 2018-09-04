@@ -1,4 +1,7 @@
-img.group{
+/* --------------------------------
+Committee pictures
+-------------------------------- */
+img.group{ //Group picture settings
   width: 100%;
 }
 
@@ -7,11 +10,14 @@ div.profile{
   padding: 30px 0;
 }
 
-img.img-circle{
+img.img-square{ //Individual pictures
   margin: 0 auto;
   width: 60%;
 }
 
+/* --------------------------------
+Responsive
+-------------------------------- */
 @media only screen and (max-width: 576px) {
   #committeeImg {
     max-width: 100%;
