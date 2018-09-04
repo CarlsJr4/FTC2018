@@ -1,5 +1,5 @@
 /* --------------------------------
-Documents
+Documents panels
 -------------------------------- */
 .download-bg {
   @extend #mini-nav;
@@ -223,6 +223,9 @@ li.Other p {
   font-size: 15px;
 }
 
+/* --------------------------------
+Responsive
+-------------------------------- */
 @media only screen and (max-width: 1000px) {
   li p{
     font-size: 12px;

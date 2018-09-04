@@ -1,18 +1,7 @@
-.rotate {
-  transform: rotate(90deg);
-  transition: .3s;
-}
-
-.rotate-reset {
-  transform: rotate(0deg);
-  transition: .3s;
-}
-
-.fa-caret-right {
-  padding-left: 20px;
-}
-
-.FAQ-bg {
+/* --------------------------------
+FAQ panels
+-------------------------------- */
+.FAQ-bg { //Background panels of questions
   @extend .download-panel;
   &:hover {
     background-color: $beige;
@@ -20,13 +9,16 @@
   }
 }
 
-.FAQ-bg + p {
+.FAQ-bg + p { //FAQ answers
   margin: 3%;
   color: white;
 }
 
+/* --------------------------------
+Responsive
+-------------------------------- */
 @media only screen and (max-width: 576px) {
-  #gen-info {
+  #gen-info { //General FAQ information section
     margin-top: 0;
   }
 

@@ -269,18 +269,22 @@ Jumbotron section
   padding-right: 0;
 }
 
-#welcome {
+#video {
+  width: 100%;
+  height: 75.6vh;
+}
+
+/*#welcome { //This is the backup jumbotron content incase FTC committee decides to remove the video from the website
   margin-top: 3%;
 }
 
-#FTC-title {
+ #FTC-title {
   max-width: 100%;
   margin-bottom: 0;
   margin-top: 0;
   border: 10px double white;
-}
-
-.vl, .vl-header {
+} */
+.vl {
   height: 3em;
   width: 33%;
   border-left: 10px solid #8D6542;
@@ -293,11 +297,6 @@ Jumbotron section
   padding: 1%;
   border: 8px double white;
   color: black;
-}
-
-#video {
-  width: 100%;
-  height: 75.6vh;
 }
 
 #mini-nav, .download-bg {
@@ -368,6 +367,9 @@ Activity cards
   margin-right: 0;
 }
 
+/* --------------------------------
+Responsive
+-------------------------------- */
 @media only screen and (max-width: 576px) {
   #deal {
     min-width: 100%;
@@ -400,6 +402,9 @@ Activity cards
     margin-bottom: 5%;
   }
 }
+/* --------------------------------
+News carousels
+-------------------------------- */
 .carousel {
   padding: 1em;
   background-color: #A0B82F;
@@ -422,6 +427,9 @@ Activity cards
   margin-left: 90%;
 }
 
+/* --------------------------------
+News panels
+-------------------------------- */
 .news {
   margin-bottom: 5%;
 }
@@ -431,6 +439,9 @@ Activity cards
   color: white;
 }
 
+/* --------------------------------
+Announcements badges
+-------------------------------- */
 .badge-general {
   background-color: #025939;
 }
@@ -440,7 +451,7 @@ Activity cards
 }
 
 /* --------------------------------
-Documents
+Documents panels
 -------------------------------- */
 .download-bg {
   margin: 0 2% 2% 2%;
@@ -659,6 +670,9 @@ li.Other p {
   font-size: 15px;
 }
 
+/* --------------------------------
+Responsive
+-------------------------------- */
 @media only screen and (max-width: 1000px) {
   li p {
     font-size: 12px;
@@ -703,6 +717,9 @@ li.Other p {
     margin-right: 0;
   }
 }
+/* --------------------------------
+Committee pictures
+-------------------------------- */
 img.group {
   width: 100%;
 }
@@ -712,30 +729,22 @@ div.profile {
   padding: 30px 0;
 }
 
-img.img-circle {
+img.img-square {
   margin: 0 auto;
   width: 60%;
 }
 
+/* --------------------------------
+Responsive
+-------------------------------- */
 @media only screen and (max-width: 576px) {
   #committeeImg {
     max-width: 100%;
   }
 }
-.rotate {
-  transform: rotate(90deg);
-  transition: 0.3s;
-}
-
-.rotate-reset {
-  transform: rotate(0deg);
-  transition: 0.3s;
-}
-
-.fa-caret-right {
-  padding-left: 20px;
-}
-
+/* --------------------------------
+FAQ panels
+-------------------------------- */
 .FAQ-bg:hover {
   background-color: #EAD1A1;
   color: black;
@@ -746,6 +755,9 @@ img.img-circle {
   color: white;
 }
 
+/* --------------------------------
+Responsive
+-------------------------------- */
 @media only screen and (max-width: 576px) {
   #gen-info {
     margin-top: 0;
