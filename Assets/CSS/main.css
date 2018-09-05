@@ -420,9 +420,9 @@ News carousels
   width: 35%;
 }
 
-.carousel-graphic {
+#newsDeadlines {
   height: 100%;
-  margin-left: 90%;
+  width: 25%;
 }
 
 /* --------------------------------
