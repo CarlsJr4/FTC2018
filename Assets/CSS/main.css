@@ -421,8 +421,7 @@ News carousels
 }
 
 #newsDeadlines {
-  height: 100%;
-  width: 25%;
+  margin-left: 38%;
 }
 
 /* --------------------------------
