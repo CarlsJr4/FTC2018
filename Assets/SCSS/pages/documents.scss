@@ -83,6 +83,15 @@ Calendar
   padding: 1%;
 }
 
+#specialKey {
+  background-color: $yellow;
+  padding: 1%;
+}
+
+#keyRow {
+  padding: 3%;
+}
+
 .m {
   margin: {
     top: 5%;
@@ -97,6 +106,11 @@ Calendar
 
 .OH {
   background-color: $sky-blue;
+  color: white;
+}
+
+.special {
+  background-color: $yellow;
   color: white;
 }
 

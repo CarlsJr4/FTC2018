@@ -532,6 +532,15 @@ Calendar
   padding: 1%;
 }
 
+#specialKey {
+  background-color: #FECC4C;
+  padding: 1%;
+}
+
+#keyRow {
+  padding: 3%;
+}
+
 .m {
   margin-top: 5%;
   margin-bottom: 5%;
@@ -544,6 +553,11 @@ Calendar
 
 .OH {
   background-color: #AFCAE3;
+  color: white;
+}
+
+.special {
+  background-color: #FECC4C;
   color: white;
 }
 
@@ -730,6 +744,13 @@ div.profile {
 img.img-square {
   margin: 0 auto;
   width: 60%;
+}
+
+/* --------------------------------
+Other
+-------------------------------- */
+#committeeTitle {
+  max-width: 60%;
 }
 
 /* --------------------------------
