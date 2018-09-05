@@ -532,6 +532,15 @@ Calendar
   padding: 1%;
 }
 
+#specialKey {
+  background-color: #FECC4C;
+  padding: 1%;
+}
+
+#keyRow {
+  padding: 3%;
+}
+
 .m {
   margin-top: 5%;
   margin-bottom: 5%;
@@ -548,7 +557,7 @@ Calendar
 }
 
 .special {
-  background-color: #A0B82F;
+  background-color: #FECC4C;
   color: white;
 }
 
