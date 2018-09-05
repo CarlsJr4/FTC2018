@@ -650,6 +650,10 @@ li.faded {
   color: #b3b3b3;
 }
 
+li.faded-hidden {
+  visibility: hidden;
+}
+
 /* Highlight the "current" day */
 .days li .active {
   padding: 5px;
@@ -730,6 +734,13 @@ div.profile {
 img.img-square {
   margin: 0 auto;
   width: 60%;
+}
+
+/* --------------------------------
+Other
+-------------------------------- */
+#committeeTitle {
+  max-width: 60%;
 }
 
 /* --------------------------------
