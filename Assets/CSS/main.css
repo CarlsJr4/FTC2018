@@ -408,6 +408,10 @@ News carousels
   background-color: #A0B82F;
 }
 
+#carouselExampleIndicators {
+  height: 35em;
+}
+
 .carousel-item {
   max-height: 25em;
 }
@@ -421,11 +425,21 @@ News carousels
 }
 
 #newsDeadlines {
-  margin-left: 38%;
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
 }
 
 .videos {
   margin-left: 12.8%;
+}
+
+.weeklyOH {
+  width: 33%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
 }
 
 /* --------------------------------
@@ -451,6 +465,23 @@ Announcements badges
   background-color: #F48151;
 }
 
+/* --------------------------------
+Mobile
+-------------------------------- */
+@media screen and (max-width: 576px) {
+  #carouselExampleIndicators {
+    height: 25em;
+  }
+
+  .weeklyOH {
+    width: 75%;
+    margin-top: 25%;
+  }
+
+  #newsDeadlines {
+    width: 75%;
+  }
+}
 /* --------------------------------
 Documents panels
 -------------------------------- */
