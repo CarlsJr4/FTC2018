@@ -255,6 +255,9 @@ Responsive
 /* --------------------------------
 Pages
 -------------------------------- */
+/* --------------------------------
+Landing Page
+-------------------------------- */
 #landing-head-panel {
   max-width: 100%;
 }
@@ -267,6 +270,30 @@ Pages
   padding-top: 6%;
 }
 
+#landing-container {
+  margin-bottom: 3%;
+}
+
+/* --------------------------------
+Responsive
+-------------------------------- */
+@media only screen and (max-width: 576px) {
+  #landing-panel {
+    margin-bottom: 15%;
+  }
+
+  #landing-head-panel {
+    font-size: 2em;
+  }
+
+  #goodbye-img {
+    margin-bottom: 15%;
+  }
+
+  button {
+    margin-bottom: 5%;
+  }
+}
 /* --------------------------------
 Jumbotron section
 -------------------------------- */
