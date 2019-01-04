@@ -263,6 +263,10 @@ Pages
   width: 100%;
 }
 
+#landing-panel {
+  padding-top: 6%;
+}
+
 /* --------------------------------
 Jumbotron section
 -------------------------------- */
